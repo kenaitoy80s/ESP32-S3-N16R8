@@ -40,6 +40,22 @@ static uint32_t s_lastLoopUs   = 0;   // 上次 audio.loop() 调用时刻
 // 所以判据必须单调: 换台时清 0, 只要观察到一次"库在跑且码率已识别"就永久置 1, 本台内不再翻转。
 static bool s_outStarted = false;
 
+// ============ ★【修复 2026-10 · SD 播放卡死自愈】的状态 ============
+// 现象: 只播开头一小段就无声, 既不自动下一首, 手点下一首又只播一小段。
+// 根因: SD 读卡中途失败时, 库不报错也不结束 -> audio.isRunning() 一直为真,
+//       而"放完自动下一首"原来只认 isRunning 1->0 这一个信号, 所以永远不触发。
+// 对策: ① 起播前先自己读一遍文件头尾做预检(读不动就直接跳过这首, 并打印读速);
+//       ② 播放中盯住输入缓冲字节数: 连续 SD_STALL_MS 毫秒一动不动 = 卡死 -> 自动换下一首;
+//       ③ 连续卡死 SD_STALL_MAX 次就停下并提示"SD 读卡失败"(多半是接线/上拉/供电问题), 不无限乱跳。
+#define SD_STALL_MS   5000UL
+#define SD_STALL_MAX  3
+static uint32_t s_sdLastFilled  = 0xFFFFFFFFu;  // 上一圈的输入缓冲字节数
+static uint32_t s_sdStuckSince  = 0;            // 缓冲数值开始"不变"的时刻
+static uint32_t s_sdStartMs     = 0;            // 本首起播时刻(用来判断"这首是不是正常播了很久")
+static uint8_t  s_sdStallCnt    = 0;            // 连续卡死次数
+static uint8_t  s_sdFailRun     = 0;            // 连续预检失败次数
+static bool     s_sdSkipPending = false;        // 预检失败后, 请主循环下一圈跳到下一首(用迭代代替递归)
+
 // ---- ★跨任务曲名交接(方案B 关键) ----
 // audio_showstreamtitle 是【库在 audio.loop() 内部】回调的, 也就是说它现在跑在【音频泵任务】里;
 // 而 gState(含 String)只允许【主循环】写 —— 两个任务同时碰同一个 Arduino String 会 double-free
@@ -336,7 +352,9 @@ void audio_showstation(const char* info) {
   // 始终以用户在列表中保存的电台名为准; 不写 gState(避免跨线程竞争)。
 }
 void audio_eof_mp3(const char* info) {
-  (void)info;
+  // ★【修复】本地文件播到结尾时库会回调这里 —— 打一行日志, 抓串口时一眼能分辨
+  //   "正常播完" 与 "中途卡死(没有这行)"。只打印, 不写 gState。
+  Serial.printf("[LIB] 文件结束: %s\n", (info && *info) ? info : "");
   // 流结束由主循环看门狗基于缓冲增长判定重连/跳台; 此处不写 gState(避免跨线程竞争)。
 }
 
@@ -1069,6 +1087,45 @@ void AudioPlayer::execSleepPowerOff(int min) {
 //   库的 connecttoSD() 内部写死了全局 SPI `SD` 对象, 而本工程挂的是 SD_MMC(1-bit),
 //   两者不是同一个 FS -> 必须用通用接口 connecttoFS(SD_MMC, path)。
 
+// ★【修复】起播前的读卡预检: 自己用 SD_MMC 把这个文件的开头 64KB 和结尾 4KB 读一遍。
+//   好处: ① 路径不对/文件打不开/读卡出错, 在这里就能发现并给出明确日志, 不会交给解码器后"静默无声";
+//         ② 打印读速(KB/s), 速度极低或波动大基本就是接线/上拉问题;
+//         ③ 同时把卡"唤醒"一遍, 避免第一口读取才暴露错误。
+//   调用时机: stopSongSafe() 之后(上一首的文件已关闭)、connecttoFS 之前 —— 此刻没有任何别的任务在读卡。
+static bool sdPreflight(const char* path, size_t* sizeOut) {
+  File f = SD_MMC.open(path, "r");
+  if (!f) {
+    Serial.printf("[SD  ] ★预检失败: 打不开文件 %s\n", path);
+    return false;
+  }
+  const size_t sz = f.size();
+  if (sizeOut) *sizeOut = sz;
+  static uint8_t buf[4096];                         // static: 不占 loopTask 的栈
+  const size_t headWant = (sz < 65536) ? sz : 65536;
+  size_t got = 0;
+  const uint32_t t0 = millis();
+  while (got < headWant) {
+    const size_t want = (headWant - got < sizeof(buf)) ? (headWant - got) : sizeof(buf);
+    const size_t n = f.read(buf, want);
+    if (n == 0) break;                              // 读不动(出错/提前结束)
+    got += n;
+  }
+  const uint32_t ms = millis() - t0;
+  bool ok = (got == headWant) && (sz > 0);
+  if (ok && sz > 8192) {                            // 再试一次"跳到结尾读", 顺便验证 seek 正常
+    const size_t tailPos = sz - 4096;
+    if (!f.seek(tailPos) || f.read(buf, 4096) != 4096) {
+      Serial.printf("[SD  ] ★预检失败: 文件结尾读取/定位出错 %s\n", path);
+      ok = false;
+    }
+  }
+  f.close();
+  Serial.printf("[SD  ] 预检%s: %s 大小 %uKB, 开头 %uKB 用时 %ums (%u KB/s)\n",
+                ok ? "通过" : "★失败", path, (unsigned)(sz / 1024), (unsigned)(got / 1024),
+                (unsigned)ms, (unsigned)(ms ? (got * 1000UL / ms / 1024UL) : 0));
+  return ok;
+}
+
 void AudioPlayer::execSdPlay(int idx) {
   // 首次进入(或卡被拔插过)时确保已挂载
   if (!gSd.mounted() && !gSd.begin()) { gState.status = "SD 未挂载"; return; }
@@ -1105,10 +1162,46 @@ void AudioPlayer::execSdPlay(int idx) {
   gState.failCount = 0;
   prevInFill = 0;
 
+  // ★【修复】起播前预检(见 sdPreflight)。失败: 不交给解码器, 直接跳下一首; 连续失败 SD_STALL_MAX 次就停下报错。
+  {
+    size_t fsz = 0;
+    if (!sdPreflight(f->path.c_str(), &fsz)) {
+      gState.playing = false;
+      gState.buffering = false;
+      s_sdFailRun++;
+      if (s_sdFailRun >= SD_STALL_MAX || n <= 1) {
+        gState.status = "SD 读卡失败";
+        Serial.println("[SD  ] ★连续多首读不出来 -> 停止。请检查: 卡座供电(3.3V)/CMD、D0 是否有 10k 上拉/杜邦线是否过长/换一张卡试试");
+        s_sdFailRun = 0;
+      } else {
+        gState.status = "SD 读文件失败";
+        s_sdSkipPending = true;          // 下一圈主循环再换下一首(避免在这里递归)
+      }
+      return;
+    }
+    s_sdFailRun = 0;
+  }
+  s_sdStartMs = millis();                // 本首起播时刻
+  s_sdLastFilled = 0xFFFFFFFFu;          // 重置"缓冲不动"监测
+  s_sdStuckSince = millis();
+
   markStage(12);                     // 与网络连流同一个"进入库"面包屑阶段
   lockAudio();
-  audio.connecttoFS(SD_MMC, f->path.c_str());   // ★SD_MMC 是 fs::SDMMCFS, 派生自 fs::FS
-  unlockAudio();
+bool ok = audio.connecttoFS(SD_MMC, f->path.c_str());
+unlockAudio();
+
+if (!ok) {
+  gState.status = "SD 播放失败";
+  gState.playing = false;
+  gState.sdActive = false;
+  gState.buffering = false;
+  gState.audioEverFlowed = false;
+  s_outStarted = false;
+
+  Serial.printf("[Audio] SD 播放失败: connecttoFS 返回 false，路径=%s\n",
+                f->path.c_str());
+  return;
+}
   markStage(6);
 
   Serial.printf("[Audio] SD 播放 [%d/%d] %s -> 运行=%d 编码=%s 码率=%ubps\n",
@@ -1199,6 +1292,12 @@ void AudioPlayer::loop() {
   // ② 执行排队的换台/停止/重连命令(见类注释线程模型; 按键/WS/看门狗都只是投递命令)
   processCmd();
 
+  // ★【修复】SD 起播前预检失败 -> 在这里(而不是在 execSdPlay 里递归)换下一首。
+  if (s_sdSkipPending) {
+    s_sdSkipPending = false;
+    if (gState.sdActive) execSdNext();
+  }
+
   // ③ 执行待办的"跳过不支持编码的台"(见 skipNext 注释: 用迭代替代递归, 保护 8KB 主循环栈
   //    并保证每圈都喂失速看门狗)。放在 processCmd 之后: 用户新下的命令优先, 执行完再看要不要跳。
   if (skipNext != 0) {
@@ -1224,6 +1323,7 @@ void AudioPlayer::loop() {
       gState.playing = false;         // 先落"停止", 免得下面切下一首期间又被判成断流
       gState.lastDataMs = millis();
       Serial.printf("[SD  ] 第 %d 首放完 (循环=%d)\n", cur + 1, gState.sdLoop);
+      s_sdStallCnt = 0;               // ★正常放完 -> 清零"连续卡死"计数
       // ★2026-10-07 按循环方式决定"放完怎么办"(原来只有"顺序下一首", 且单首时一律停住)。
       //   判定用【当前序号】而不是"下一首序号": cur 是放完的那首, 语义最明确。
       if (nSd <= 0) {
@@ -1281,6 +1381,40 @@ void AudioPlayer::loop() {
   const bool decoding = audio.isRunning() && audio.getBitRate() > 0 && audio.prebufferDone();
   if (decoding) s_outStarted = true;                 // 一旦出声过, 本台内不再回退为"缓冲中"
   gState.buffering = gState.playing && !s_outStarted;
+
+  // ---- ★【修复】SD 本地播放"卡死"自愈 ----
+  // 判据: SD 播放中 + 已经出过声 + 输入缓冲字节数连续 SD_STALL_MS 毫秒【一个字节都没变】。
+  //   (正常播放时缓冲要么被解码器吃掉、要么被读文件补上, 数值必然在变; 完全不动 = 读卡/解码卡死了。)
+  //   正常放到文件结尾时库会自己停(isRunning 1->0), 走上面的"放完"分支, 不会走到这里。
+  if (gState.sdActive && gState.playing && s_outStarted) {
+    const uint32_t nowSd = millis();
+    if (filled != s_sdLastFilled) {
+      s_sdLastFilled = filled;
+      s_sdStuckSince = nowSd;
+      if (nowSd - s_sdStartMs > 30000UL) s_sdStallCnt = 0;   // 这首正常播了 30s 以上, 说明卡是好的, 清零计数
+    } else if (nowSd - s_sdStuckSince >= SD_STALL_MS) {
+      s_sdStuckSince = nowSd;
+      s_sdStallCnt++;
+      Serial.printf("[SD  ] ★检测到卡死: 第 %d 首已播 %lus, 缓冲 %uB %lus 没有变化 (连续第 %u/%u 次) | 码率=%ubps 堆 %uKB\n",
+                    gState.sdIndex + 1, (unsigned long)((nowSd - s_sdStartMs) / 1000UL),
+                    (unsigned)filled, (unsigned long)(SD_STALL_MS / 1000UL),
+                    (unsigned)s_sdStallCnt, (unsigned)SD_STALL_MAX,
+                    (unsigned)audio.getBitRate(), (unsigned)(ESP.getFreeHeap() / 1024));
+      if (s_sdStallCnt >= SD_STALL_MAX) {
+        s_sdStallCnt = 0;
+        execStop();                                   // 停下, 别无限乱跳
+        gState.status = "SD 读卡失败";
+        Serial.println("[SD  ] ★连续卡死 -> 已停止。请检查: 卡座供电(3.3V)/CMD、D0 是否有 10k 上拉/杜邦线是否过长/换一张卡试试");
+      } else {
+        execSdNext();                                 // 卡死 -> 自动换下一首
+      }
+      s_lastRun = runNow;
+      return;                                         // 状态已变, 本圈不再往下走
+    }
+  } else {
+    s_sdLastFilled = 0xFFFFFFFFu;                     // 不在 SD 播放: 复位监测
+    s_sdStuckSince = millis();
+  }
 
   // ---- "迟迟不出声"诊断(每 2s 一行) ----
   // 现象"没有声音"时, 这一行直接回答四个关键问题, 不用再猜:
