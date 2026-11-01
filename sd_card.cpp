@@ -6,6 +6,24 @@
 // ★只在主循环调用, 见 sd_card.h 的线程模型说明。
 #include <SD_MMC.h>
 
+// ★【修复 2026-10 · SD 稳定性】总线频率: 默认 10MHz, 挂载失败自动降到 4MHz 再试。
+//   为什么不用默认的 20MHz: 本板 SD 走杜邦线/模块, CMD/D0 如果没有 10k 外部上拉(SD 标准要求, 见串口提示),
+//   20MHz 下余量很小, 现象就是"能挂载、能列目录, 播放读到中途出错"。
+//   音频需要的带宽极小(MP3 320kbps = 40KB/s; 4MHz 的 1-bit 总线约 400KB/s, 仍有 10 倍余量),
+//   所以降速几乎没有代价, 却能换来稳定。想改速度只需改这个宏(单位 kHz)。
+#ifndef SD_MMC_FREQ_KHZ
+#define SD_MMC_FREQ_KHZ 10000
+#endif
+#define SD_MMC_FREQ_FALLBACK_KHZ 4000
+
+// ★只为在串口里打印"卡上是 FAT16 还是 FAT32"(确认文件系统支持)。头文件不存在时自动跳过, 不影响编译。
+#if defined(__has_include)
+#  if __has_include("ff.h")
+#    include "ff.h"
+#    define SD_HAVE_FF_H 1
+#  endif
+#endif
+
 // 1-bit 模式下只接 CLK/CMD/D0 三根线; D1~D3 在 setPins 的 3 参重载里被固定为 -1(不占用)。
 // 必须在 begin() 之前调用, 且要在 SPI.begin() 之后 —— 本工程没有初始化 SPI(SD_MMC 不需要)。
 SdCard gSd;
@@ -39,8 +57,22 @@ bool SdCard::begin() {
 
   // ★第三个参数 format_if_mount_failed 故意传 false:
   //   挂载失败就报错给用户, 绝不自动格式化 —— 格式化会抹掉卡里的歌, 这个决定必须由用户自己做。
-  if (!SD_MMC.begin(SD_MOUNT, /*mode1bit=*/true, /*format_if_mount_failed=*/false)) {
-    Serial.printf("[SD  ] 挂载失败: 请检查接线(CLK=GPIO%d CMD=GPIO%d D0=GPIO%d)与 FAT32 格式\n",
+  // ★【修复】按"10MHz -> 4MHz"依次尝试挂载; 每次失败都先 end() 清干净再试, 并把用到的频率打印出来。
+  const int kFreqs[2] = { SD_MMC_FREQ_KHZ, SD_MMC_FREQ_FALLBACK_KHZ };
+  int usedKhz = 0;
+  for (int i = 0; i < 2; i++) {
+    if (i == 1 && kFreqs[1] >= kFreqs[0]) break;          // 宏被改成更低时, 不重复试同一个速度
+    if (SD_MMC.begin(SD_MOUNT, /*mode1bit=*/true, /*format_if_mount_failed=*/false, kFreqs[i])) {
+      usedKhz = kFreqs[i];
+      break;
+    }
+    Serial.printf("[SD  ] 以 %d kHz 挂载失败%s\n", kFreqs[i], i == 0 ? ", 降速重试" : "");
+    SD_MMC.end();                                          // 失败后清理, 避免残留状态影响下一次
+    delay(50);
+  }
+  if (!usedKhz) {
+    Serial.printf("[SD  ] 挂载失败: 请检查接线(CLK=GPIO%d CMD=GPIO%d D0=GPIO%d)、卡座供电 3.3V、\n"
+                  "        以及卡的格式(支持 FAT16 / FAT32; 不支持 exFAT, 大于 32GB 的卡请先格式化成 FAT32)\n",
                   SD_MMC_CLK, SD_MMC_CMD, SD_MMC_D0);
     return false;
   }
@@ -48,10 +80,6 @@ bool SdCard::begin() {
   // 卡容量: cardSize() 返回 MB。顺带打印已用/总量, 让"卡认出来了"这件事在串口上一眼可见。
   // ★core 3.3.11 的 SDMMCFS 只有 cardSize()/totalBytes()/usedBytes(),
   //   【没有】totalFiles() —— 文件数要自己遍历数(见 scan())。
-  //
-  // ★★顺手打印卡型/文件系统: 用户报"卡里有文件却一个都扫不到"时, exFAT 是最常见的元凶 ——
-  //   FFat 驱动虽然支持 exFAT, 但个别 exFAT 卡的目录项兼容性有问题, 表现就是
-  //   "挂载成功(容量读得出来)但列不出文件"。打印出来一眼就能判断要不要先格成 FAT32。
   const char* ct = "未知";
   switch (SD_MMC.cardType()) {
     case CARD_MMC:  ct = "MMC";  break;
@@ -59,11 +87,32 @@ bool SdCard::begin() {
     case CARD_SDHC: ct = "SDHC"; break;
     default: break;
   }
-  Serial.printf("[SD  ] 已挂载(1-bit): 卡类型 %s, 卡容量 %llu MB, 已用 %llu MB / 共 %llu MB\n",
-                ct,
+  Serial.printf("[SD  ] 已挂载(1-bit, %d kHz): 卡类型 %s, 卡容量 %llu MB, 已用 %llu MB / 共 %llu MB\n",
+                usedKhz, ct,
                 (unsigned long long)SD_MMC.cardSize(),
                 (unsigned long long)(SD_MMC.usedBytes() / (1024ULL * 1024ULL)),
                 (unsigned long long)(SD_MMC.totalBytes() / (1024ULL * 1024ULL)));
+
+  // ★【修复】打印文件系统类型。ESP-IDF 的 FatFs 自动识别 FAT12 / FAT16 / FAT32(三种都支持, 不用设置);
+  //   【不支持 exFAT】(IDF 里 FF_FS_EXFAT=0), 所以 exFAT 的卡根本挂不上, 不是"能挂载但列不出文件"。
+  //   (旧注释说 exFAT 能挂载是不准确的。)
+#ifdef SD_HAVE_FF_H
+  {
+    FATFS* fs = nullptr;
+    DWORD freeClust = 0;
+    // 第一块卡通常是 0 号盘; 查不到(返回非 0)就静默跳过, 只是少打一行。
+    if (f_getfree("0:", &freeClust, &fs) == FR_OK && fs) {
+      const char* ft = "未知";
+      switch (fs->fs_type) {
+        case FS_FAT12: ft = "FAT12"; break;
+        case FS_FAT16: ft = "FAT16"; break;
+        case FS_FAT32: ft = "FAT32"; break;
+        default: break;
+      }
+      Serial.printf("[SD  ] 文件系统: %s (FAT16 / FAT32 均可正常使用)\n", ft);
+    }
+  }
+#endif
   return true;
 }
 
@@ -165,7 +214,13 @@ int SdCard::scan() {
       f.close();
       continue;
     }
-    const String full = f.name();        // ★带目录前缀的完整路径, 如 "/abc.mp3"
+    // ★【修复】优先用 path()(完整路径); 旧版直接用 name(), 而 core 3.x 的 name() 在不同版本里
+    //   可能只是"纯文件名"(不带开头的 "/"), 交给解码器 open 就会找不到文件。
+    //   这里统一: 取 path(), 取不到就退回 name(), 最后保证以 "/" 开头。
+    String full = f.path();
+    if (full.length() == 0) full = f.name();
+    if (!full.startsWith("/")) full = "/" + full;
+    const size_t fsize = f.size();       // 先取大小再 close
     if (isPlayableExt(full)) playable++;
     // 前 25 个条目无论是否匹配都打印(够用又不刷屏)
     if (totalEntries <= 25)
@@ -173,6 +228,17 @@ int SdCard::scan() {
                     isPlayableExt(full) ? "可播" : "不识别扩展名");
     f.close();
     if (!isPlayableExt(full)) continue;
+    // ★【修复】跳过"假音频": ① 以 "." 开头的隐藏文件(如 macOS 拷卡留下的 "._歌名.mp3", 扩展名是 mp3
+    //   但内容不是音频, 播放就是"一小段杂音/无声然后停"); ② 0 字节文件。
+    {
+      const int sl = full.lastIndexOf('/');
+      const String bn = (sl >= 0) ? full.substring(sl + 1) : full;
+      if (bn.startsWith(".") || fsize == 0) {
+        Serial.printf("        [跳过] %s (%s)\n", full.c_str(), fsize == 0 ? "0 字节" : "隐藏文件");
+        playable--;                      // 上面已按"可播"计数, 这里扣回去
+        continue;
+      }
+    }
 
     SdAudioFile a;
     // 去掉扩展名做显示名: 屏幕只有十几个字符宽, ".mp3" 纯属浪费; path 保留原样。
