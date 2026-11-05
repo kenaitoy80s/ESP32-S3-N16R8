@@ -1,0 +1,2289 @@
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1507/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=162375bps 解码错=0 | 数据age 207ms | 主循环 258Hz 音频泵 549Hz | 堆 58KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 65ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流64 库循环0 Web29 落盘0 门户0 红外9 按键16 显示221
+[LCD] 显示帧: 绘制 9 / 跳过 53 (跳过率 85%)
+[SYS] 运行 0:02 | WiFi=已连 RSSI=-58dBm(平滑-59) | 芯片温度=42.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=58KB 最低=1KB 最大连续块=24KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400265.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58736
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:30 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133856
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:19 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06d3-20ae0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:29 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50456
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 2821/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=166125bps 解码错=0 | 数据age 224ms | 主循环 293Hz 音频泵 502Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web30 落盘0 门户10 红外3 按键10 显示259
+[LCD] 显示帧: 绘制 9 / 跳过 50 (跳过率 84%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400266.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=60900
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=58KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:35 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133856
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:24 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06d8-20ae0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:34 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50508
+[LIB] slow stream, dropouts are possible
+[HB] 运行130s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=AAC 173625bps | 堆=56KB 最大块=24KB | HTTP请求=31 WS=0 | 主栈余=3388 音频泵=642Hz 泵栈余=3732
+[DIAG] 缓冲 1458/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=156750bps 解码错=0 | 数据age 177ms | 主循环 145Hz 音频泵 565Hz | 堆 59KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环3 Web57 落盘0 门户10 红外0 按键13 显示278
+[LCD] 显示帧: 绘制 8 / 跳过 49 (跳过率 85%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58468
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:41 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:39 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06e7-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:40 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=51232
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400267.ts"
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:41 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134420
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:29 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06dd-20d14"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:40 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=55324
+[DIAG] 缓冲 1338/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=179625bps 解码错=0 | 数据age 209ms | 主循环 335Hz 音频泵 652Hz | 堆 58KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[LIB] slow stream, dropouts are possible
+[DIAG] 阶段最大耗时ms: 喂流56 库循环0 Web19 落盘0 门户1 红外0 按键9 显示249
+[LCD] 显示帧: 绘制 8 / 跳过 54 (跳过率 87%)
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400268.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58712
+[HB] 运行140s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=AAC 157125bps | 堆=57KB 最大块=24KB | HTTP请求=33 WS=0 | 主栈余=3388 音频泵=529Hz 泵栈余=3732
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:46 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134984
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:34 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06e2-20f48"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:45 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=52824
+[DIAG] 缓冲 2360/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=174000bps 解码错=0 | 数据age 1ms | 主循环 337Hz 音频泵 582Hz | 堆 58KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web30 落盘0 门户9 红外0 按键12 显示231
+[LCD] 显示帧: 绘制 6 / 跳过 61 (跳过率 91%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400269.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58684
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=58KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:51 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134044
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:39 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06e7-20b9c"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:50 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50532
+[DIAG] 缓冲 2412/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=162000bps 解码错=0 | 数据age 1ms | 主循环 354Hz 音频泵 583Hz | 堆 59KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web22 落盘0 门户10 红外1 按键9 显示232
+[LCD] 显示帧: 绘制 7 / 跳过 55 (跳过率 88%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行150s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 163875bps | 堆=59KB 最大块=24KB | HTTP请求=35 WS=0 | 主栈余=3388 音频泵=389Hz 泵栈余=3732
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58684
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:56 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:54 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06f6-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:55 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=60416
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400270.ts"
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:32:57 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134232
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:44 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06ec-20c58"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:32:56 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50348
+[DIAG] 缓冲 2256/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=155625bps 解码错=0 | 数据age 2ms | 主循环 299Hz 音频泵 335Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 65ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流64 库循环0 Web19 落盘0 门户1 红外0 按键19 显示207
+[LCD] 显示帧: 绘制 3 / 跳过 70 (跳过率 95%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400271.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58612
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:02 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 132352
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:49 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06f1-20500"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:01 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50448
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1369/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=172875bps 解码错=0 | 数据age 1ms | 主循环 239Hz 音频泵 306Hz | 堆 58KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流56 库循环1 Web30 落盘0 门户3 红外0 按键13 显示258
+[LCD] 显示帧: 绘制 9 / 跳过 46 (跳过率 83%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行160s | WiFi=已连 IP=10.0.0.236 RSSI=-58dBm | 播放=1 编码=AAC 140625bps | 堆=58KB 最大块=24KB | HTTP请求=37 WS=0 | 主栈余=3388 音频泵=606Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=58KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400272.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58808
+[DIAG] 缓冲 1295/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=173625bps 解码错=0 | 数据age 0ms | 主循环 191Hz 音频泵 514Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 12ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流11 库循环0 Web30 落盘0 门户1 红外0 按键14 显示268
+[LCD] 显示帧: 绘制 11 / 跳过 43 (跳过率 79%)
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:07 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134796
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:54 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06f6-20e8c"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:06 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=55496
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1203/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=164625bps 解码错=0 | 数据age 0ms | 主循环 219Hz 音频泵 622Hz | 堆 59KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环0 Web29 落盘0 门户11 红外0 按键9 显示235
+[LCD] 显示帧: 绘制 7 / 跳过 59 (跳过率 89%)
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58832
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:13 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:09 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0705-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:12 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=60468
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400273.ts"
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:13 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 132916
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:32:59 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec06fb-20734"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:12 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50404
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行170s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 163875bps | 堆=58KB 最大块=24KB | HTTP请求=39 WS=0 | 主栈余=3388 音频泵=580Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 4045/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=140625bps 解码错=0 | 数据age 1ms | 主循环 362Hz 音频泵 642Hz | 堆 58KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 66ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流65 库循环0 Web17 落盘0 门户9 红外0 按键14 显示220
+[LCD] 显示帧: 绘制 4 / 跳过 66 (跳过率 94%)
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400274.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58496
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:19 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133856
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:04 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0700-20ae0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:18 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=50212
+[Web] GET / (html gz 4101B) 堆=54KB 最大块=24KB
+[Web] GET /a.css (gz 1646B)
+[Web] GET /a.js (gz 4633B)
+[Web] GET /rb.js (gz 2462B)
+[Web] GET /listop.js (gz 3720B)
+[Web] GET /sd.js (gz 2882B)
+[Web] GET /snd.js (gz 1817B)
+[Web] GET /dith.js (gz 1588B)
+[Web] GET /bg.js (gz 4688B)
+[Web] GET /bgb.js (gz 1837B)
+[Web] GET /wifi.js (gz 2436B)
+[Web] GET /ota.js (gz 2903B)
+[Web] GET /alarm.js (gz 3005B)
+[LIB] slow stream, dropouts are possible
+[Web] GET /color.js (gz 2998B)
+[Web] GET /ctrl.js (gz 1459B)
+[Web] 兜底 /favicon.ico -> html(gz)
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1562/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=154500bps 解码错=0 | 数据age 1ms | 主循环 252Hz 音频泵 526Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环0 Web26 落盘0 门户1 红外0 按键22 显示287
+[LCD] 显示帧: 绘制 7 / 跳过 52 (跳过率 88%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400275.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56524
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:24 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134984
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:09 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0705-20f48"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:23 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=47212
+[LIB] slow stream, dropouts are possible
+[HB] 运行180s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 149625bps | 堆=56KB 最大块=24KB | HTTP请求=62 WS=1 | 主栈余=3388 音频泵=558Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1343/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=165375bps 解码错=0 | 数据age 0ms | 主循环 267Hz 音频泵 490Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 58ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流58 库循环0 Web44 落盘0 门户1 红外0 按键14 显示260
+[LCD] 显示帧: 绘制 5 / 跳过 60 (跳过率 92%)
+[LIB] slow stream, dropouts are possible
+[SYS] 运行 0:03 | WiFi=已连 RSSI=-60dBm(平滑-60) | 芯片温度=42.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56220
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:29 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:24 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0714-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:28 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58180
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400276.ts"
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:29 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133104
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:14 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec070a-207f0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:28 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48116
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1329/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=165375bps 解码错=0 | 数据age 202ms | 主循环 187Hz 音频泵 475Hz | 堆 47KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -56dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环0 Web26 落盘0 门户1 红外0 按键10 显示275
+[LCD] 显示帧: 绘制 9 / 跳过 49 (跳过率 84%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400277.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56456
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:34 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133856
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:19 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec070f-20ae0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:33 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=53132
+[LIB] slow stream, dropouts are possible
+[HB] 运行190s | WiFi=已连 IP=10.0.0.236 RSSI=-56dBm | 播放=1 编码=AAC 158625bps | 堆=56KB 最大块=24KB | HTTP请求=71 WS=1 | 主栈余=3388 音频泵=554Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 2224/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=159375bps 解码错=0 | 数据age 204ms | 主循环 237Hz 音频泵 484Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 54ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环0 Web33 落盘0 门户1 红外0 按键14 显示256
+[LCD] 显示帧: 绘制 3 / 跳过 67 (跳过率 95%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=4/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400278.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56012
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:39 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133292
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:24 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0714-208ac"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:38 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48268
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 4257/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=161625bps 解码错=0 | 数据age 204ms | 主循环 285Hz 音频泵 402Hz | 堆 54KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环0 Web24 落盘0 门户13 红外0 按键8 显示235
+[LCD] 显示帧: 绘制 5 / 跳过 60 (跳过率 92%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56556
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:44 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:44 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0728-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:43 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58192
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400280.ts"
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:45 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 135172
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:34 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec071e-21004"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:44 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48128
+[LIB] slow stream, dropouts are possible
+[HB] 运行200s | WiFi=已连 IP=10.0.0.236 RSSI=-58dBm | 播放=1 编码=AAC 150375bps | 堆=56KB 最大块=24KB | HTTP请求=78 WS=1 | 主栈余=3388 音频泵=583Hz 泵栈余=3732
+[DIAG] 缓冲 1914/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=208500bps 解码错=0 | 数据age 36ms | 主循环 310Hz 音频泵 529Hz | 堆 51KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 64ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流64 库循环0 Web21 落盘0 门户3 红外11 按键13 显示218
+[LCD] 显示帧: 绘制 6 / 跳过 60 (跳过率 90%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400281.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56356
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:50 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133292
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:33:39 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0723-208ac"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:33:49 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=53024
+[LIB] slow stream, dropouts are possible
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://117.72.180.140:8000/hill
+[PROBE]   耗时 231ms, 收到头 289 字节(完整): HTTP/1.0 200 OK | Server: Icecast 2.4.4 | Connection: Close | Date: Thu, 05 Nov 2026 04:33:52 GMT | Content-Type: audio/aacp | Cache-Control: no-cache, no-store | Expires: Mon, 26 Jul 1997 05:00:00 GMT | Pragma: no-cache | Access-Control-Allow-Origin: * | icy-br:160 | icy-name:HillFm | icy-pub:0 |  ...
+[PROBE]   判定: Content-Type=audio/aacp -> kind=1 [放行] AAC+/HE-AAC(★本板 SBR 已启用, 输出 96kHz)
+[LIB] Connect to new host: "http://117.72.180.140:8000/hill"
+[LIB] buffers freed, free Heap: 59816 bytes
+[LIB] Connection has been established in 219 ms, free Heap: 59360 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=57604
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=0 | 堆 56KB 最大块 24KB | 已建连
+[Audio] 播放: http://117.72.180.140:8000/hill
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵560Hz) | 堆 56KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=unknown 码率=0bps 解码错=0 | 数据age 245ms | 主循环 136Hz 音频泵 560Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 325ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流324 库循环856 Web33 落盘95 门户0 红外0 按键10 显示244
+[LCD] 显示帧: 绘制 10 / 跳过 44 (跳过率 81%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=0/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7487KB/8192KB | 分配失败累计=0
+[AMP] 功放关(静音) | 播放=1 距上次音频数据=1500ms 音量=41/99 缓冲=0
+[Audio] 切台静音恢复完成
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58328
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 56KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[LIB] [HDR] first bytes arrived, avail=308
+[LIB] [HDR] line: HTTP/1.0 200 OK
+[LIB] [HDR] line: Server: Icecast 2.4.4
+[LIB] [HDR] line: Connection: Close
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:33:55 GMT
+[LIB] [HDR] line: Content-Type: audio/aacp
+[LIB] [HDR] line: Cache-Control: no-cache, no-store
+[LIB] [HDR] line: Expires: Mon, 26 Jul 1997 05:00:00 GMT
+[LIB] [HDR] line: Pragma: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: icy-br:160
+[LIB] [HDR] line: icy-name:HillFm
+[LIB] [HDR] line: icy-pub:0
+[LIB] [HDR] line: icy-metaint:16000
+[LIB] [HDR] lastToDo codec=3 listfmt=0 heap=58032
+[LIB] [AAC] sizeof: DecInfo=96 PSInfoBase=27364 pce*16=1312 | SBR=1
+[LIB] [AAC] before alloc: DEF|INT largest=25588 free=51244
+[LIB] [AAC] alloc OK, free Heap: 57828 bytes
+[LIB] AACDecoder has been initialized, free Heap: 58040 bytes
+[LIB] stream ready
+[AMP] 功放开(出声) | 播放=1 距上次音频数据=0ms 音量=41/99 缓冲=4200
+[HB] 运行210s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 160000bps | 堆=57KB 最大块=24KB | HTTP请求=89 WS=1 | 主栈余=3388 音频泵=933Hz 泵栈余=3732
+[LIB] StreamTitle=''
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=26743B/507904B(5%) 喂流=泵任务(泵970Hz) | 堆 57KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG] 缓冲 26743/507904(5%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160000bps 解码错=0 | 数据age 17ms | 主循环 717Hz 音频泵 1000Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 67ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流66 库循环11 Web22 落盘0 门户2 红外0 按键12 显示119
+[LCD] 显示帧: 绘制 5 / 跳过 73 (跳过率 93%)
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=26743B/507904B(5%) 喂流=泵任务(泵997Hz) | 堆 57KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=26743B/507904B(5%) 喂流=泵任务(泵995Hz) | 堆 57KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[LIB] syncword found at pos 149
+[Audio] 开始出声: 编码=AAC 码率=160000bps 缓冲=35KB | 采样率=48000Hz
+[LIB] syncword found at pos 0
+[LIB] Channels: 2
+[LIB] SampleRate: 48000
+[LIB] BitsPerSample: 16
+[LIB] BitRate: 154125
+[LIB] AAC HeaderFormat: ADTS
+[LIB] AAC Codec: MPEG-2
+[LIB] AAC Profile: LowComplexity
+[LIB] VBR recognized, audioFileDuration is estimated
+[DIAG] 缓冲 29649/507904(5%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=159375bps 解码错=0 | 数据age 23ms | 主循环 362Hz 音频泵 664Hz | 堆 52KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 24ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流24 库循环11 Web16 落盘0 门户4 红外0 按键3 显示443
+[LCD] 显示帧: 绘制 3 / 跳过 71 (跳过率 95%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行220s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 149250bps | 堆=51KB 最大块=24KB | HTTP请求=96 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1342/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=149250bps 解码错=0 | 数据age 0ms | 主循环 644Hz 音频泵 997Hz | 堆 49KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流19 库循环3 Web19 落盘0 门户0 红外0 按键12 显示179
+[LCD] 显示帧: 绘制 3 / 跳过 75 (跳过率 96%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=49KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1216/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=197625bps 解码错=0 | 数据age 150ms | 主循环 210Hz 音频泵 511Hz | 堆 52KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 15ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流14 库循环0 Web40 落盘0 门户9 红外0 按键10 显示278
+[LCD] 显示帧: 绘制 3 / 跳过 70 (跳过率 95%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行230s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 157125bps | 堆=57KB 最大块=24KB | HTTP请求=105 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1532/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=159000bps 解码错=0 | 数据age 17ms | 主循环 590Hz 音频泵 1000Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 14ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流13 库循环0 Web11 落盘0 门户0 红外0 按键12 显示198
+[LCD] 显示帧: 绘制 6 / 跳过 70 (跳过率 92%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1385/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=154125bps 解码错=0 | 数据age 17ms | 主循环 646Hz 音频泵 996Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 11ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流10 库循环8 Web11 落盘0 门户0 红外0 按键5 显示103
+[LCD] 显示帧: 绘制 1 / 跳过 80 (跳过率 98%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=57KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[LIB] slow stream, dropouts are possible
+[HB] 运行240s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 152625bps | 堆=57KB 最大块=24KB | HTTP请求=114 WS=1 | 主栈余=3388 音频泵=996Hz 泵栈余=3732
+[DIAG] 缓冲 1545/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=186000bps 解码错=0 | 数据age 140ms | 主循环 364Hz 音频泵 561Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 12ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流11 库循环0 Web22 落盘0 门户11 红外0 按键12 显示236
+[LCD] 显示帧: 绘制 5 / 跳过 69 (跳过率 93%)
+[SYS] 运行 0:04 | WiFi=已连 RSSI=-61dBm(平滑-61) | 芯片温度=42.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 13078/507904(2%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=161250bps 解码错=0 | 数据age 26ms | 主循环 252Hz 音频泵 141Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 23ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流21 库循环3 Web33 落盘0 门户6 红外3 按键11 显示309
+[LCD] 显示帧: 绘制 8 / 跳过 50 (跳过率 86%)
+[HB] 运行250s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 153750bps | 堆=57KB 最大块=24KB | HTTP请求=123 WS=1 | 主栈余=3388 音频泵=141Hz 泵栈余=3732
+[DIAG] 缓冲 6845/507904(1%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160125bps 解码错=0 | 数据age 209ms | 主循环 269Hz 音频泵 527Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 22ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流22 库循环3 Web36 落盘0 门户3 红外2 按键12 显示307
+[LCD] 显示帧: 绘制 9 / 跳过 51 (跳过率 85%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=13/496KB(2%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=57KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 15506/507904(3%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=152625bps 解码错=0 | 数据age 0ms | 主循环 335Hz 音频泵 141Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 23ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流22 库循环3 Web36 落盘0 门户7 红外0 按键10 显示191
+[LCD] 显示帧: 绘制 5 / 跳过 65 (跳过率 92%)
+[HB] 运行260s | WiFi=已连 IP=10.0.0.236 RSSI=-64dBm | 播放=1 编码=AAC 157875bps | 堆=57KB 最大块=24KB | HTTP请求=130 WS=1 | 主栈余=3388 音频泵=142Hz 泵栈余=3732
+[DIAG] 缓冲 22730/507904(4%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=157125bps 解码错=0 | 数据age 28ms | 主循环 340Hz 音频泵 141Hz | 堆 49KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -64dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 23ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流22 库循环4 Web25 落盘0 门户7 红外0 按键12 显示200
+[LCD] 显示帧: 绘制 4 / 跳过 67 (跳过率 94%)
+[DIAG] 缓冲 23172/507904(4%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=171750bps 解码错=0 | 数据age 0ms | 主循环 327Hz 音频泵 140Hz | 堆 54KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -64dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 24ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流23 库循环3 Web19 落盘2 门户7 红外0 按键3 显示205
+[LCD] 显示帧: 绘制 6 / 跳过 60 (跳过率 90%)
+[HB] 运行270s | WiFi=已连 IP=10.0.0.236 RSSI=-64dBm | 播放=1 编码=AAC 152625bps | 堆=57KB 最大块=24KB | HTTP请求=141 WS=1 | 主栈余=3388 音频泵=141Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=33/496KB(6%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=57KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 31489/507904(6%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160125bps 解码错=0 | 数据age 1ms | 主循环 342Hz 音频泵 141Hz | 堆 49KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -64dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流19 库循环3 Web24 落盘0 门户8 红外3 按键12 显示202
+[LCD] 显示帧: 绘制 4 / 跳过 67 (跳过率 94%)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://nap.casthost.net:8765/
+[PROBE]   耗时 143ms, 收到头 467 字节(完整): HTTP/1.0 200 OK | icy-notice1:<BR>This stream requires <a href="http://www.winamp.com">Winamp</a><BR> | icy-notice2:Shoutcast DNAS/posix(linux x64) v2.6.1.777<BR> | Accept-Ranges:none | Access-Control-Allow-Origin:* | Cache-Control:no-cache,no-store,must-revalidate,max-age=0 | Connection:close | icy...
+[PROBE]   判定: Content-Type=audio/mpeg -> kind=1 [放行] MP3 / WAV
+[LIB] Connect to new host: "http://nap.casthost.net:8765/"
+[LIB] buffers freed, free Heap: 59844 bytes
+[LIB] Connection has been established in 83 ms, free Heap: 58992 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=57388
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=0 | 堆 56KB 最大块 24KB | 已建连
+[Audio] 播放: http://nap.casthost.net:8765/
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵341Hz) | 堆 54KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[LIB] [HDR] first bytes arrived, avail=485
+[LIB] [HDR] line: HTTP/1.0 200 OK
+[LIB] [HDR] line: icy-notice1:<BR>This stream requires <a href="http://www.winamp.com">Winamp</a><BR>
+[LIB] [HDR] line: icy-notice2:Shoutcast DNAS/posix(linux x64) v2.6.1.777<BR>
+[LIB] [HDR] line: Accept-Ranges:none
+[LIB] [HDR] line: Access-Control-Allow-Origin:*
+[LIB] [HDR] line: Cache-Control:no-cache,no-store,must-revalidate,max-age=0
+[LIB] [HDR] line: Connection:close
+[LIB] [HDR] line: icy-name:Unnamed Server
+[LIB] [HDR] line: icy-genre:Misc
+[LIB] [HDR] line: icy-br:64
+[LIB] [HDR] line: icy-sr:44100
+[LIB] [HDR] line: icy-url:http://www.shoutcast.com
+[LIB] [HDR] line: icy-pub:0
+[LIB] [HDR] line: content-type:audio/mpeg
+[LIB] [HDR] line: icy-metaint:8192
+[LIB] [HDR] line: X-Clacks-Overhead:GNU Terry Pratchett
+[LIB] [HDR] lastToDo codec=2 listfmt=0 heap=42832
+[LIB] MP3Decoder has been initialized, free Heap: 40804 bytes
+[LIB] stream ready
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[LIB] syncword found at pos 0
+[Audio] 开始出声: 编码=MP3 码率=64000bps 缓冲=32KB | 采样率=48000Hz
+[LIB] Channels: 2
+[LIB] SampleRate: 44100
+[LIB] BitsPerSample: 16
+[LIB] BitRate: 64000
+[Audio] 切台静音恢复完成
+[DIAG] 缓冲 154377/507904(30%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 370Hz 音频泵 122Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 189ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流189 库循环519 Web19 落盘141 门户9 红外0 按键3 显示429
+[LCD] 显示帧: 绘制 5 / 跳过 52 (跳过率 91%)
+[HB] 运行280s | WiFi=已连 IP=10.0.0.236 RSSI=-58dBm | 播放=1 编码=MP3 64000bps | 堆=52KB 最大块=24KB | HTTP请求=148 WS=1 | 主栈余=3388 音频泵=119Hz 泵栈余=3732
+[DIAG] 缓冲 257672/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 391Hz 音频泵 117Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web23 落盘2 门户14 红外3 按键13 显示195
+[LCD] 显示帧: 绘制 4 / 跳过 68 (跳过率 94%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=251/496KB(50%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=54KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 257212/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 0ms | 主循环 409Hz 音频泵 116Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环6 Web29 落盘0 门户6 红外2 按键6 显示174
+[LCD] 显示帧: 绘制 5 / 跳过 66 (跳过率 92%)
+[HB] 运行290s | WiFi=已连 IP=10.0.0.236 RSSI=-63dBm | 播放=1 编码=MP3 64000bps | 堆=57KB 最大块=24KB | HTTP请求=157 WS=1 | 主栈余=3388 音频泵=115Hz 泵栈余=3732
+[DIAG] 缓冲 258048/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 398Hz 音频泵 117Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web17 落盘2 门户6 红外3 按键13 显示171
+[LCD] 显示帧: 绘制 4 / 跳过 69 (跳过率 94%)
+[DIAG] 缓冲 257463/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 412Hz 音频泵 114Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -64dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web19 落盘2 门户6 红外2 按键6 显示170
+[LCD] 显示帧: 绘制 2 / 跳过 74 (跳过率 97%)
+[HB] 运行300s | WiFi=已连 IP=10.0.0.236 RSSI=-66dBm | 播放=1 编码=MP3 64000bps | 堆=57KB 最大块=24KB | HTTP请求=166 WS=1 | 主栈余=3388 音频泵=115Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=252/496KB(50%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=54KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 258716/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 416Hz 音频泵 115Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -65dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web21 落盘2 门户3 红外3 按键15 显示186
+[LCD] 显示帧: 绘制 3 / 跳过 71 (跳过率 95%)
+[SYS] 运行 0:05 | WiFi=已连 RSSI=-65dBm(平滑-63) | 芯片温度=42.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=57KB 最低=1KB 最大连续块=24KB | PSRAM: 空闲=7463KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 256836/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 395Hz 音频泵 115Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web12 落盘0 门户4 红外2 按键4 显示197
+[LCD] 显示帧: 绘制 5 / 跳过 65 (跳过率 92%)
+[HB] 运行310s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=MP3 64000bps | 堆=57KB 最大块=24KB | HTTP请求=175 WS=1 | 主栈余=3388 音频泵=115Hz 泵栈余=3732
+[DIAG] 缓冲 258298/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 172ms | 主循环 399Hz 音频泵 116Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web15 落盘0 门户3 红外2 按键12 显示176
+[LCD] 显示帧: 绘制 2 / 跳过 76 (跳过率 97%)
+[DIAG] 缓冲 258690/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 0ms | 主循环 501Hz 音频泵 116Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web13 落盘0 门户5 红外3 按键3 显示171
+[LCD] 显示帧: 绘制 2 / 跳过 74 (跳过率 97%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=251/496KB(50%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=0
+[HB] 运行320s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=MP3 64000bps | 堆=57KB 最大块=24KB | HTTP请求=182 WS=1 | 主栈余=3388 音频泵=115Hz 泵栈余=3732
+[DIAG] 缓冲 258899/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 504Hz 音频泵 114Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web21 落盘0 门户7 红外2 按键12 显示180
+[LCD] 显示帧: 绘制 2 / 跳过 74 (跳过率 97%)
+[DIAG] 缓冲 257881/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 468Hz 音频泵 115Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环3 Web12 落盘2 门户5 红外2 按键6 显示5
+[LCD] 显示帧: 绘制 0 / 跳过 79 (跳过率 100%)
+[HB] 运行330s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=MP3 64000bps | 堆=57KB 最大块=24KB | HTTP请求=193 WS=1 | 主栈余=3388 音频泵=115Hz 泵栈余=3732
+[DIAG] 缓冲 258508/507904(50%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=64000bps 解码错=0 | 数据age 1ms | 主循环 512Hz 音频泵 114Hz | 堆 57KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [AM1400 SF 星岛中文电台 粤语] http://nap.casthost.net:8765/
+[DIAG] 采样率 44100Hz | 音频泵喂流最大间隔 31ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流30 库循环2 Web12 落盘2 门户3 红外2 按键14 显示9
+[LCD] 显示帧: 绘制 0 / 跳过 80 (跳过率 100%)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[PROBE]   耗时 712ms, 收到头 413 字节(完整): HTTP/1.1 200 OK | Server: openresty/1.21.4.1 | Date: Thu, 05 Nov 2026 04:35:59 GMT | Content-Type: audio/mpeg | Transfer-Encoding: chunked | Connection: close | Cache-Control: no-cache, no-store | Expires: Mon, 26 Jul 1997 05:00:00 GMT | Pragma: no-cache | Access-Control-Allow-Origin: * | icy-br: 56...
+[PROBE]   判定: Content-Type=audio/mpeg -> kind=1 [放行] MP3 / WAV
+[LIB] Connect to new host: "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
+[LIB] buffers freed, free Heap: 59896 bytes
+[LIB] Connection has been established in 154 ms, free Heap: 58796 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=57232
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=0 | 堆 55KB 最大块 24KB | 已建连
+[Audio] 播放: http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵764Hz) | 堆 56KB 最大块 24KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=0/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=57KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=0
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[LIB] [HDR] first bytes arrived, avail=438
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: openresty/1.21.4.1
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:36:00 GMT
+[LIB] [HDR] line: Content-Type: audio/mpeg
+[LIB] [HDR] line: Transfer-Encoding: chunked
+[LIB] chunked data transfer
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: Cache-Control: no-cache, no-store
+[LIB] [HDR] line: Expires: Mon, 26 Jul 1997 05:00:00 GMT
+[LIB] [HDR] line: Pragma: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: icy-br: 56
+[LIB] [HDR] line: ice-audio-info: bitrate=56
+[LIB] [HDR] line: icy-br: 56
+[LIB] [HDR] line: icy-pub: 0
+[LIB] [HDR] line: icy-metaint: 16000
+[LIB] [HDR] line: Allow: GET, HEAD
+[LIB] [HDR] line: icy-name: BBC Radio
+[LIB] [HDR] line: icy-description: BBC Radio
+[LIB] [HDR] lastToDo codec=2 listfmt=0 heap=58232
+[LIB] MP3Decoder has been initialized, free Heap: 58232 bytes
+[LIB] stream ready
+[LIB] StreamTitle='BBC World Service Online'
+[Audio] 切台静音恢复完成
+[LIB] syncword found at pos 26
+[LIB] syncword found at pos 0
+[LIB] MP3 decode error -6 : INVALID_FRAMEHEADER
+[LIB] syncword found at pos 60
+[LIB] syncword found at pos 0
+[LIB] Channels: 2
+[LIB] SampleRate: 24000
+[LIB] BitsPerSample: 16
+[LIB] BitRate: 56000
+[Audio] 开始出声: 编码=MP3 码率=56000bps 缓冲=34KB | 采样率=24000Hz
+[DIAG] 缓冲 64501/507904(12%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 141ms | 主循环 5Hz 音频泵 593Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 261ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流260 库循环1244 Web27 落盘125 门户3 红外0 按键3 显示282
+[LCD] 显示帧: 绘制 16 / 跳过 23 (跳过率 58%)
+[HB] 运行340s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=24KB | HTTP请求=200 WS=1 | 主栈余=3388 音频泵=125Hz 泵栈余=3732
+[DIAG] 缓冲 70408/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 140ms | 主循环 7Hz 音频泵 126Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web16 落盘0 门户0 红外0 按键12 显示156
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 76790/507904(15%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 145ms | 主循环 7Hz 音频泵 127Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 40ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流38 库循环0 Web12 落盘0 门户0 红外0 按键0 显示153
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=76/496KB(15%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=0
+[HB] 运行350s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=24KB | HTTP请求=209 WS=1 | 主栈余=3388 音频泵=126Hz 泵栈余=3732
+[DIAG] 缓冲 69004/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 138ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web29 落盘0 门户0 红外1 按键12 显示146
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 75385/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 131ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web15 落盘0 门户2 红外0 按键2 显示171
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行360s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=24KB | HTTP请求=218 WS=1 | 主栈余=3388 音频泵=126Hz 泵栈余=3732
+[DIAG] 缓冲 81599/507904(16%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 133ms | 主循环 6Hz 音频泵 126Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web24 落盘0 门户0 红外0 按键12 显示147
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[SYS] 运行 0:06 | WiFi=已连 RSSI=-62dBm(平滑-62) | 芯片温度=42.0(最高43.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM: 空闲=7463KB/8192KB | 分配失败累计=0
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=72/496KB(14%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=56KB 最低=1KB 最大连续块=24KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=0
+[DIAG] 缓冲 73981/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 133ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web24 落盘0 门户2 红外0 按键0 显示148
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行370s | WiFi=已连 IP=10.0.0.236 RSSI=-63dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=24KB | HTTP请求=227 WS=1 | 主栈余=3388 音频泵=126Hz 泵栈余=3732
+[DIAG] 缓冲 80362/507904(15%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 131ms | 主循环 7Hz 音频泵 124Hz | 堆 56KB(最大块 24KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web17 落盘0 门户0 红外0 按键12 显示148
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0xa (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0xfb0
+load:0x403c8700,len:0xaf4
+load:0x403cb700,len:0x2e24
+entry 0x403c8898
+E (465) esp_core_dump_flash: No core dump partition found!
+E (465) esp_core_dump_flash: No core dump partition found!
+[Boot] === 固件已启动, 串口通道就绪 (若看不到此行=监视器接错口/波特率非115200) ===
+[Boot] 固件版本=v1.22 | 运行分区=ota_1 @0x3F0000 | otadata状态=VALID
+[Boot] 已确认本分区 VALID (不再自动回退)
+[IR] 红外接收已启动 (GPIO4, 已学习 9/10 个动作)
+[Main] 日志通道: UART0(GPIO43/44) + 原生USB(USB-Serial-JTAG) | 写超时=0(绝不阻塞主循环)
+[Main] 复位原因: 上电/EN键复位 (正常) (code=1)
+[Main] 上电冷启动(无历史阶段)
+[Main] 本次启动: 非深睡唤醒(上电/复位/烧录) (cause=0)
+[LCD] 屏幕类型: ST7789 320x240 (硬件 SPI)
+[LCD] 初始化完成: SCK=40 MOSI=41 CS=42 DC=39 RST=38 BL=47(亮=HIGH) 亮度=50%(PWM 20000Hz/8bit) 旋转=180° SPI=20000000Hz(硬件)
+[LCD] ST7789 面板: 横屏 320x240, MADCTL=0xA0(MV=1 MX=0 MY=1 BGR=0), 反显=0, 调色板 FG=0xFFFF BG=0x0000
+[LCD] 调色板主题: 经典黑白(白字/黑底)  方向: 串口 V 切横/竖屏(存NVS) | K 换 MADCTL | J 翻反显 | Q 换主题
+[TIME] 开机时区: TZ=PST8PDT,M3.2.0,M11.1.0
+[Store] 文件系统挂载成功: 总 917504 B / 已用 323584 B
+[Store] 配置原文: {"lastIndex":3,"volume":41,"volRange":99,"stations":[{"name":"AsiaFM(MP3)","url":"https://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8","group":"音乐台"},{"name":"Ai醉了台","url":"http://117.72.180.140:8000/hill","group":"未分类"},{"name":"澳门绿邨电台FM99.5","url":"https:/
+[Store] 配置就绪: 10 台, 音量=41, lastIndex=3
+[Store]   #0 AsiaFM(MP3) | https://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8
+[Store]   #1 Ai醉了台 | http://117.72.180.140:8000/hill
+[Store]   #2 澳门绿邨电台FM99.5 | https://macaofm995.com/hls1/fm995.m3u8
+[Store]   #3 BBC World Service | http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[Store]   #4 FM95.6 飞扬956 开平 | https://lhttp.qingting.fm/live/5037/64k.mp3
+[Store]   #5 AM1400 SF 星岛中文电台 粤语 | http://nap.casthost.net:8765/
+[Store]   #6 AM1450 SF 星岛中文电台—国语 | http://nap.casthost.net:8759/
+[Store]   #7 KMRB 1430 LA 粤语 | https://video1.getstreamhosting.com:8304/stream
+[Store]   #8 KAZN 1300 LA 国语 | https://video1.getstreamhosting.com:8308/stream
+[Store]   #9 两广之声音乐 | https://lhttp-hw.qingting.fm/live/20500149/64k.mp3
+[BG  ] 已加载彩色背景 /bg_l.rgb (153600 B, 横屏) 亮度=25% 内部堆=228KB
+[SD  ] 记忆的播放位置: 1 号
+[ALARM] 载入: 关闭 | 开播 07:00 -> (未指定电台) | 停播 关闭 08:00
+[LIB] I2S driver installed: dma_buf_count=32 dma_buf_len=512, free Heap: 161812 bytes
+[Audio] PSRAM: 已启用 | 总 8192KB 空闲 8031KB | 输入缓冲 RAM 16384B + PSRAM 524288B
+[Audio] setPinout(BCLK=5, LRC=6, DOUT=7) -> OK
+[Audio] 音量 = 41/99 (0=静音)
+[Audio] 音频泵任务已启动: core1 优先级3 栈8192B(实配) —— 喂流不再受 UI/落盘影响
+[WiFi] 尝试 1/1: MOMO
+[WiFi] 已连接: 10.0.0.236 (槽0, 信号 -58dBm)
+[RB ] 在线电台搜索就绪(radio-browser.info)
+[Web] 固件 v1.22 | 构建时间: Nov  4 2026 18:25:48
+[Web] 网页资源(flash, gzip): html 4101B / css 1646B / js 4633B, 可用堆=108256
+[Web] 服务已启动 (80) ｜ WebSocket /ws
+[OTA ] 网页升级就绪(免密) | ArduinoOTA 主机名 "webradio-s3p" 端口 3232
+[Main] 启动完成
+[Main] 按键: 左=上一台(双击音量-/长按连续减) | 右=下一台(双击音量+/长按连续加) | 中=播放/停止(长按800ms=进出电台列表)
+[Main] 列表内: 左/右=上下选择(按住连续) | 中单击=确定并播放 | 中长按=收起列表 ｜ 红外同义(长按播放键进出)
+[Main] 注意: 中键长按已不再是"重置配网" —— 重置配网只在 Web 后台(WS reset / POST /api/reset)
+[Main] 串口诊断命令: T=I2S蜂鸣自检(无声) | M=切换节目信息连接(卡顿) | D=打印诊断 | F=字库自检 | S=屏幕测试图案 | L=翻转背光 | B=起播预缓冲开关 | R=恢复出厂电台表(清残留+播第1台) | W=原始抓流测试(区分网络/库) | I=红外学习菜单 | U=睡眠定时器(30分) u=取消 | Z=关机(深睡: 按电源键/已学 power 遥控键唤醒, 其它遥控键不唤醒)
+[Main] 节目信息连接: 关 (发 M 可切换; 缓冲持续欠载会自动降级关闭)
+[DIAG2] 音频: 模式=网台 状态=已连 运行=0 缓冲=0/496KB(0%) 最近解码错=0 | 重连累计=0
+        内存: 内部堆空闲=0KB 最低=0KB 最大连续块=0KB | PSRAM空闲=0KB/0KB | 分配失败累计=0
+[AMP] 功放关(静音) | 播放=0 距上次音频数据=3198ms 音量=41/99 缓冲=0
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=0 | 数据age 0ms | 主循环 745Hz 音频泵 992Hz | 堆 62KB(最大块 30KB) | 栈余 主4960/泵7328 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 停止 | 标题编码=UTF-8
+[DIAG] 电台: [] 
+[DIAG] 采样率 16000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流0 库循环0 Web20 落盘0 门户0 红外0 按键11 显示94
+[LCD] 显示帧: 绘制 1 / 跳过 29 (跳过率 96%)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[PROBE]   耗时 746ms, 收到头 413 字节(完整): HTTP/1.1 200 OK | Server: openresty/1.21.4.1 | Date: Thu, 05 Nov 2026 04:36:50 GMT | Content-Type: audio/mpeg | Transfer-Encoding: chunked | Connection: close | Cache-Control: no-cache, no-store | Expires: Mon, 26 Jul 1997 05:00:00 GMT | Pragma: no-cache | Access-Control-Allow-Origin: * | icy-br: 56...
+[PROBE]   判定: Content-Type=audio/mpeg -> kind=1 [放行] MP3 / WAV
+[LIB] Connect to new host: "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service"
+[LIB] PSRAM found, inputBufferSize: 507903 bytes
+[LIB] buffers freed, free Heap: 62680 bytes
+[LIB] Connection has been established in 176 ms, free Heap: 62164 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=60396
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=0 | 堆 58KB 最大块 30KB | 已建连
+[Audio] 播放: http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵743Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[AMP] 功放开(出声) | 播放=1 距上次音频数据=272ms 音量=41/99 缓冲=0
+[LIB] [HDR] first bytes arrived, avail=438
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: openresty/1.21.4.1
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:36:51 GMT
+[LIB] [HDR] line: Content-Type: audio/mpeg
+[LIB] [HDR] line: Transfer-Encoding: chunked
+[LIB] chunked data transfer
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: Cache-Control: no-cache, no-store
+[LIB] [HDR] line: Expires: Mon, 26 Jul 1997 05:00:00 GMT
+[LIB] [HDR] line: Pragma: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: icy-br: 56
+[LIB] [HDR] line: ice-audio-info: bitrate=56
+[LIB] [HDR] line: icy-br: 56
+[LIB] [HDR] line: icy-pub: 0
+[LIB] [HDR] line: icy-metaint: 16000
+[LIB] [HDR] line: Allow: GET, HEAD
+[LIB] [HDR] line: icy-name: BBC Radio
+[LIB] [HDR] line: icy-description: BBC Radio
+[LIB] [HDR] lastToDo codec=2 listfmt=0 heap=50180
+[LIB] MP3Decoder has been initialized, free Heap: 50180 bytes
+[LIB] stream ready
+[LIB] StreamTitle='BBC World Service Online'
+[LIB] syncword found at pos 141
+[LIB] syncword found at pos 0
+[LIB] MP3 decode error -6 : INVALID_FRAMEHEADER
+[LIB] syncword found at pos 71
+[LIB] syncword found at pos 0
+[LIB] Channels: 2
+[LIB] SampleRate: 24000
+[LIB] BitsPerSample: 16
+[LIB] BitRate: 56000
+[SYS] ★内存分配失败: 申请 16717 字节 caps=0x00000804 来自 heap_caps_calloc (累计第 1 次)
+[WX] 取天气失败(连续 1 次, 天气 错误码 -1), 8 秒后重试
+[Audio] 开始出声: 编码=MP3 码率=56000bps 缓冲=31KB | 采样率=24000Hz
+[Audio] 切台静音恢复完成
+[DIAG] 缓冲 68988/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 154ms | 主循环 7Hz 音频泵 151Hz | 堆 59KB(最大块 30KB) | 栈余 主4492/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 297ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流296 库循环1331 Web9 落盘238 门户1 红外0 按键1 显示320
+[LCD] 显示帧: 绘制 19 / 跳过 12 (跳过率 38%)
+[HB] 运行10s | WiFi=已连 IP=10.0.0.236 RSSI=-59dBm | 播放=1 编码=MP3 56000bps | 堆=54KB 最大块=30KB | HTTP请求=11 WS=0 | 主栈余=4492 音频泵=151Hz 泵栈余=3732
+[DIAG] 缓冲 68202/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 150ms | 主循环 7Hz 音频泵 123Hz | 堆 56KB(最大块 30KB) | 栈余 主4492/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web13 落盘0 门户0 红外0 按键13 显示137
+[LCD] 显示帧: 绘制 39 / 跳过 0 (跳过率 0%)
+[TIME] NTP 校时成功
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=81/496KB(16%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=58KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 71784/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 180ms | 主循环 7Hz 音频泵 125Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web21 落盘0 门户0 红外0 按键0 显示161
+[LCD] 显示帧: 绘制 27 / 跳过 0 (跳过率 0%)
+[HB] 运行20s | WiFi=已连 IP=10.0.0.236 RSSI=-59dBm | 播放=1 编码=MP3 56000bps | 堆=58KB 最大块=30KB | HTTP请求=20 WS=0 | 主栈余=3388 音频泵=125Hz 泵栈余=3732
+[DIAG] 缓冲 64166/507904(12%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 150ms | 主循环 7Hz 音频泵 125Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web16 落盘0 门户0 红外0 按键12 显示153
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 70547/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 157ms | 主循环 7Hz 音频泵 126Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web13 落盘0 门户0 红外0 按键0 显示160
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行30s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=MP3 56000bps | 堆=58KB 最大块=30KB | HTTP请求=28 WS=0 | 主栈余=3388 音频泵=126Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=73/496KB(14%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=58KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 76929/507904(15%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 151ms | 主循环 7Hz 音频泵 123Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 42ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流40 库循环0 Web18 落盘0 门户0 红外0 按键12 显示146
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 83142/507904(16%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 151ms | 主循环 7Hz 音频泵 126Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web15 落盘0 门户0 红外2 按键6 显示165
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行40s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=MP3 56000bps | 堆=58KB 最大块=30KB | HTTP请求=38 WS=0 | 主栈余=3388 音频泵=126Hz 泵栈余=3732
+[DIAG] 缓冲 75524/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 151ms | 主循环 7Hz 音频泵 125Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web15 落盘0 门户0 红外2 按键12 显示149
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=65/496KB(13%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=58KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 81738/507904(16%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 161ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web31 落盘0 门户3 红外0 按键0 显示151
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行50s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=30KB | HTTP请求=46 WS=1 | 主栈余=3388 音频泵=125Hz 泵栈余=3732
+[DIAG] 缓冲 74288/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 151ms | 主循环 7Hz 音频泵 126Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web13 落盘0 门户0 红外0 按键13 显示159
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 76470/507904(15%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 159ms | 主循环 6Hz 音频泵 126Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web16 落盘0 门户0 红外1 按键0 显示150
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行61s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=MP3 56000bps | 堆=54KB 最大块=30KB | HTTP请求=55 WS=1 | 主栈余=3388 音频泵=126Hz 泵栈余=3732
+[SYS] 运行 0:01 | WiFi=已连 RSSI=-59dBm(平滑-59) | 芯片温度=42.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM: 空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=65/496KB(13%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 72884/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 173ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web19 落盘0 门户0 红外0 按键13 显示155
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 69802/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 161ms | 主循环 7Hz 音频泵 123Hz | 堆 54KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web15 落盘0 门户0 红外2 按键0 显示151
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行71s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=MP3 56000bps | 堆=54KB 最大块=30KB | HTTP请求=63 WS=1 | 主栈余=3388 音频泵=123Hz 泵栈余=3732
+[DIAG] 缓冲 66216/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 164ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web9 落盘0 门户0 红外1 按键14 显示154
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=71/496KB(14%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 64366/507904(12%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 153ms | 主循环 6Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 41ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流39 库循环0 Web23 落盘0 门户0 红外2 按键0 显示147
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行81s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=30KB | HTTP请求=73 WS=1 | 主栈余=3388 音频泵=125Hz 泵栈余=3732
+[DIAG] 缓冲 70579/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 151ms | 主循环 7Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web16 落盘0 门户6 红外0 按键12 显示164
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 63129/507904(12%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 157ms | 主循环 7Hz 音频泵 123Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 39ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web16 落盘0 门户0 红外0 按键3 显示149
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行91s | WiFi=已连 IP=10.0.0.236 RSSI=-58dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=30KB | HTTP请求=80 WS=1 | 主栈余=3388 音频泵=123Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=76/496KB(15%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=54KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 70015/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 151ms | 主循环 6Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web19 落盘0 门户0 红外0 按键15 显示168
+[LCD] 显示帧: 绘制 35 / 跳过 0 (跳过率 0%)
+[DIAG] 缓冲 76228/507904(15%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 159ms | 主循环 6Hz 音频泵 125Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环1 Web15 落盘0 门户2 红外0 按键4 显示157
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行101s | WiFi=已连 IP=10.0.0.236 RSSI=-58dBm | 播放=1 编码=MP3 56000bps | 堆=46KB 最大块=30KB | HTTP请求=91 WS=1 | 主栈余=3388 音频泵=125Hz 泵栈余=3732
+[DIAG] 缓冲 68778/507904(13%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 158ms | 主循环 7Hz 音频泵 126Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web16 落盘0 门户5 红外0 按键17 显示148
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=68/496KB(13%) 最近解码错=-6 | 重连累计=1
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7463KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 74992/507904(14%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 150ms | 主循环 7Hz 音频泵 124Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web24 落盘0 门户3 红外3 按键0 显示160
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[HB] 运行111s | WiFi=已连 IP=10.0.0.236 RSSI=-63dBm | 播放=1 编码=MP3 56000bps | 堆=56KB 最大块=30KB | HTTP请求=98 WS=1 | 主栈余=3388 音频泵=124Hz 泵栈余=3732
+[DIAG] 缓冲 81037/507904(15%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=MP3 码率=56000bps 解码错=-6 | 数据age 157ms | 主循环 6Hz 音频泵 126Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [BBC World Service] http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 38ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流37 库循环0 Web13 落盘0 门户0 红外2 按键12 显示157
+[LCD] 显示帧: 绘制 36 / 跳过 0 (跳过率 0%)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8
+[PROBE]   耗时 445ms, 收到头 511 字节(完整): HTTP/1.1 200 OK | Server: Tengine | Date: Thu, 05 Nov 2026 04:38:43 GMT | Content-Type: application/vnd.apple.mpegurl | X-B3-Back-Id: forab | x-server-costtime: 3 | x-idc-gw: sh-bs@adse$1#xdcs-collector$1#mobile$10#mermaid$1 | x-a1-xdcs-collector-switch: on | p2spios_switch: on | PCDN_SWITCH: on | p...
+[PROBE]   判定: Content-Type=application/vnd.apple.mpegurl -> kind=1 [放行] HLS(m3u8)播放列表(走库内HLS流程)
+[LIB] Connect to new host: "http://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8"
+[LIB] buffers freed, free Heap: 59620 bytes
+[LIB] Connection has been established in 79 ms, free Heap: 58780 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=57244
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=-6 | 堆 55KB 最大块 30KB | 已建连
+[Audio] 播放: http://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵599Hz) | 堆 56KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[LIB] [HDR] first bytes arrived, avail=990
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: Tengine
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:38:43 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: X-B3-Back-Id: forab
+[LIB] [HDR] line: x-server-costtime: 0
+[LIB] [HDR] line: x-idc-gw: sh-bs@adse$1#xdcs-collector$1#mobile$10#mermaid$1
+[LIB] [HDR] line: x-a1-xdcs-collector-switch: on
+[LIB] [HDR] line: p2spios_switch: on
+[LIB] [HDR] line: PCDN_SWITCH: on
+[LIB] [HDR] line: p2sp_switch: on
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: Content-Length: 474
+[LIB] [HDR] line: X-NWS-LOG-UUID: 8608597844432579222
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: WS-TAG: xmly
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58036
+[LIB] new request: "http://broadcast.tx.xmcdn.com/live/999_64_261105_000035_195c.aac"
+[LIB] [HDR] first bytes arrived, avail=196
+[LIB] [HDR] line: HTTP/1.1 418 Unknown Status
+[LIB] [HDR] EXIT ct_seen=0 codec=3 listfmt=4 running=1 -> stopSong
+[WD] ★库运行标志 1->0: 流被库内部停止 -> 自动重连/跳台 | 编码=AAC 码率=0bps 缓冲=0 | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[LIB] Connect to new host: "http://live.ximalaya.com/radio-first-page-app/live/999/64.m3u8"
+[LIB] buffers freed, free Heap: 59020 bytes
+[LIB] Connection has been established in 78 ms, free Heap: 58580 bytes
+[LIB] [HDR] first bytes arrived, avail=991
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: Tengine
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:38:45 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: X-B3-Back-Id: forab
+[LIB] [HDR] line: x-server-costtime: 1
+[LIB] [HDR] line: x-idc-gw: sh-bs@adse$1#xdcs-collector$1#mobile$10#mermaid$1
+[LIB] [HDR] line: x-a1-xdcs-collector-switch: on
+[LIB] [HDR] line: p2spios_switch: on
+[LIB] [HDR] line: PCDN_SWITCH: on
+[LIB] [HDR] line: p2sp_switch: on
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: Content-Length: 474
+[LIB] [HDR] line: X-NWS-LOG-UUID: 13404738908135943672
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: X-Cache-Lookup: Cache Miss
+[LIB] [HDR] line: WS-TAG: xmly
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=57216
+[LIB] new request: "http://broadcast.tx.xmcdn.com/live/999_64_261105_000035_195c.aac"
+[LIB] [HDR] first bytes arrived, avail=196
+[LIB] [HDR] line: HTTP/1.1 418 Unknown Status
+[LIB] [HDR] EXIT ct_seen=0 codec=3 listfmt=4 running=1 -> stopSong
+[WD] ★库运行标志 1->0: 流被库内部停止 -> 自动重连/跳台 | 编码=AAC 码率=0bps 缓冲=0 | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://117.72.180.140:8000/hill
+[PROBE]   耗时 347ms, 收到头 289 字节(完整): HTTP/1.0 200 OK | Server: Icecast 2.4.4 | Connection: Close | Date: Thu, 05 Nov 2026 04:38:45 GMT | Content-Type: audio/aacp | Cache-Control: no-cache, no-store | Expires: Mon, 26 Jul 1997 05:00:00 GMT | Pragma: no-cache | Access-Control-Allow-Origin: * | icy-br:160 | icy-name:HillFm | icy-pub:0 |  ...
+[PROBE]   判定: Content-Type=audio/aacp -> kind=1 [放行] AAC+/HE-AAC(★本板 SBR 已启用, 输出 96kHz)
+[LIB] Connect to new host: "http://117.72.180.140:8000/hill"
+[LIB] buffers freed, free Heap: 58648 bytes
+[LIB] Request http://117.72.180.140:8000/hill failed!
+[Audio] 建连返回: 运行=0 编码=unknown 码率=0bps 解码错=-6 | 堆 57KB 最大块 30KB | ★失败(库已内部放弃, 查上面 [LIB:E] 行)
+[Audio] ★建连返回时库仍未进入运行态(见上一条日志; 库可能稍后才起播)
+[Audio] 播放: http://117.72.180.140:8000/hill
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵898Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[HB] 运行122s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=unknown 0bps | 堆=57KB 最大块=30KB | HTTP请求=107 WS=1 | 主栈余=3388 音频泵=898Hz 泵栈余=3732
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=-6 | 数据age 250ms | 主循环 347Hz 音频泵 619Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 356ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流355 库循环1015 Web13 落盘91 门户3 红外0 按键12 显示139
+[LCD] 显示帧: 绘制 15 / 跳过 21 (跳过率 58%)
+[AMP] 功放关(静音) | 播放=1 距上次音频数据=1500ms 音量=41/99 缓冲=0
+[Audio] 切台静音恢复完成
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵997Hz) | 堆 58KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[SYS] 运行 0:02 | WiFi=已连 RSSI=-61dBm(平滑-61) | 芯片温度=41.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=58KB 最低=0KB 最大连续块=30KB | PSRAM: 空闲=7487KB/8192KB | 分配失败累计=1
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=0 缓冲=0/496KB(0%) 最近解码错=-6 | 重连累计=2
+        内存: 内部堆空闲=58KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7487KB/8192KB | 分配失败累计=1
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 58KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=-6 | 数据age 5251ms | 主循环 837Hz 音频泵 1000Hz | 堆 59KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 5ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流0 库循环11 Web18 落盘0 门户0 红外0 按键0 显示102
+[LCD] 显示帧: 绘制 4 / 跳过 76 (跳过率 95%)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵998Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[HB] 运行132s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=unknown 0bps | 堆=59KB 最大块=30KB | HTTP请求=118 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=-6 | 数据age 10252ms | 主循环 876Hz 音频泵 994Hz | 堆 59KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 3ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流0 库循环11 Web9 落盘0 门户0 红外0 按键12 显示114
+[LCD] 显示帧: 绘制 1 / 跳过 80 (跳过率 98%)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵998Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[WD] 无音频数据, 重连当前台 (第 1 次)
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[LIB] Connect to new host: "http://117.72.180.140:8000/hill"
+[LIB] buffers freed, free Heap: 60504 bytes
+[LIB] Request http://117.72.180.140:8000/hill failed!
+[AMP] 功放开(出声) | 播放=1 距上次音频数据=1ms 音量=41/99 缓冲=0
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=-6 | 数据age 19ms | 主循环 688Hz 音频泵 707Hz | 堆 59KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 356ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流355 库循环356 Web10 落盘0 门户0 红外0 按键0 显示98
+[LCD] 显示帧: 绘制 1 / 跳过 78 (跳过率 98%)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵707Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[AMP] 功放关(静音) | 播放=1 距上次音频数据=1501ms 音量=41/99 缓冲=0
+[Audio] 切台静音恢复完成
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG2] 音频: 模式=网台 状态=重连中 运行=0 缓冲=0/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=59KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7487KB/8192KB | 分配失败累计=1
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[HB] 运行142s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=unknown 0bps | 堆=59KB 最大块=30KB | HTTP请求=125 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=-6 | 数据age 5024ms | 主循环 924Hz 音频泵 1000Hz | 堆 58KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 3ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流0 库循环11 Web21 落盘0 门户3 红外0 按键12 显示100
+[LCD] 显示帧: 绘制 3 / 跳过 77 (跳过率 96%)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵998Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=0 编码=unknown 码率=0bps 解码错=-6 | 数据age 10025ms | 主循环 811Hz 音频泵 1000Hz | 堆 59KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流0 库循环11 Web9 落盘0 门户3 红外0 按键0 显示99
+[LCD] 显示帧: 绘制 2 / 跳过 79 (跳过率 97%)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵997Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=0 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵1000Hz) | 堆 59KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[HB] 运行152s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=unknown 0bps | 堆=59KB 最大块=30KB | HTTP请求=134 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[WD] 连续失败 2 次, 跳到下一台
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://macaofm995.com/hls1/fm995.m3u8
+[PROBE]   耗时 182ms, 收到头 444 字节(完整): HTTP/1.1 206 Partial Content | Server: nginx/1.21.6 | Date: Thu, 05 Nov 2026 04:39:17 GMT | Content-Type: application/vnd.apple.mpegurl | Content-Length: 171 | Last-Modified: Thu, 05 Nov 2026 04:39:14 GMT | Connection: close | ETag: "6aec0872-ab" | Expires: Thu, 05 Nov 2026 04:39:16 GMT | Cache-Cont...
+[PROBE]   判定: Content-Type=application/vnd.apple.mpegurl -> kind=1 [放行] HLS(m3u8)播放列表(走库内HLS流程)
+[LIB] Connect to new host: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] buffers freed, free Heap: 59952 bytes
+[LIB] Connection has been established in 172 ms, free Heap: 59532 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=57944
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=-6 | 堆 56KB 最大块 30KB | 已建连
+[Audio] 播放: http://macaofm995.com/hls1/fm995.m3u8
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[AMP] 功放开(出声) | 播放=1 距上次音频数据=123ms 音量=41/99 缓冲=0
+[LIB] [HDR] first bytes arrived, avail=426
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:18 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:14 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0872-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:17 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58480
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400346.ts"
+[DIAG] 缓冲 0/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=0bps 解码错=-6 | 数据age 259ms | 主循环 430Hz 音频泵 710Hz | 堆 55KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 24000Hz | 音频泵喂流最大间隔 266ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流265 库循环906 Web9 落盘104 门户0 红外0 按键12 显示113
+[LCD] 显示帧: 绘制 1 / 跳过 82 (跳过率 98%)
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:18 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134232
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:04 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0868-20c58"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:17 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48424
+[LIB] [AAC] sizeof: DecInfo=96 PSInfoBase=27364 pce*16=1312 | SBR=1
+[LIB] [AAC] before alloc: DEF|INT largest=31732 free=48424
+[LIB] [AAC] alloc OK, free Heap: 48424 bytes
+[LIB] AACDecoder has been initialized, free Heap: 48424 bytes
+[LIB] syncword found at pos 0
+[LIB] Channels: 2
+[LIB] SampleRate: 48000
+[LIB] BitsPerSample: 16
+[LIB] BitRate: 157500
+[LIB] AAC HeaderFormat: ADTS
+[LIB] AAC Codec: MPEG-4
+[LIB] AAC Profile: LowComplexity
+[LIB] VBR recognized, audioFileDuration is estimated
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=1432B/507904B(0%) 喂流=泵任务(泵710Hz) | 堆 54KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] 切台静音恢复完成
+[LIB] slow stream, dropouts are possible
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=2449B/507904B(0%) 喂流=泵任务(泵590Hz) | 堆 52KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=2301B/507904B(0%) 喂流=泵任务(泵506Hz) | 堆 56KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[DIAG] 缓冲 2438/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=193500bps 解码错=-6 | 数据age 303ms | 主循环 270Hz 音频泵 482Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 80ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流80 库循环16 Web31 落盘0 门户9 红外0 按键11 显示270
+[LCD] 显示帧: 绘制 5 / 跳过 63 (跳过率 92%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400347.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56408
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:23 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134608
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:09 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec086d-20dd0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:22 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48472
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=1466B/507904B(0%) 喂流=泵任务(泵564Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=1463B/507904B(0%) 喂流=泵任务(泵485Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[HB] 运行162s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 155625bps | 堆=52KB 最大块=30KB | HTTP请求=143 WS=1 | 主栈余=3388 音频泵=485Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 2302/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160125bps 解码错=-6 | 数据age 47ms | 主循环 304Hz 音频泵 642Hz | 堆 54KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流56 库循环11 Web31 落盘0 门户16 红外0 按键15 显示224
+[LCD] 显示帧: 绘制 5 / 跳过 64 (跳过率 92%)
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=2061B/507904B(0%) 喂流=泵任务(泵642Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400348.ts"
+[LIB] prebuffer timeout -> start anyway
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=58936
+[Audio] 开始出声: 编码=AAC 码率=160125bps 缓冲=1KB | 采样率=48000Hz
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:29 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133104
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:14 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0872-207f0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:28 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48532
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 2189/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=156375bps 解码错=-6 | 数据age 202ms | 主循环 253Hz 音频泵 383Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 64ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流64 库循环12 Web25 落盘2 门户10 红外0 按键15 显示243
+[LCD] 显示帧: 绘制 7 / 跳过 57 (跳过率 89%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56796
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:34 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:29 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0881-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:33 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58432
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400349.ts"
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:34 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134420
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:19 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0877-20d14"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:33 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48352
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行172s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 152250bps | 堆=54KB 最大块=30KB | HTTP请求=152 WS=1 | 主栈余=3388 音频泵=499Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 4270/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=110625bps 解码错=-6 | 数据age 8ms | 主循环 279Hz 音频泵 382Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 65ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流65 库循环4 Web28 落盘0 门户0 红外0 按键14 显示240
+[LCD] 显示帧: 绘制 5 / 跳过 63 (跳过率 92%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400350.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56716
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:39 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133668
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:24 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec087c-20a24"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:38 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48424
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1289/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=162750bps 解码错=-6 | 数据age 214ms | 主循环 194Hz 音频泵 486Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web33 落盘0 门户1 红外0 按键7 显示251
+[LCD] 显示帧: 绘制 9 / 跳过 49 (跳过率 84%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400351.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56820
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:44 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134232
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:29 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0881-20c58"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:43 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48536
+[LIB] slow stream, dropouts are possible
+[HB] 运行182s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 103125bps | 堆=57KB 最大块=30KB | HTTP请求=159 WS=1 | 主栈余=3388 音频泵=624Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1585/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=154125bps 解码错=-6 | 数据age 0ms | 主循环 323Hz 音频泵 614Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环3 Web30 落盘0 门户14 红外0 按键24 显示225
+[LCD] 显示帧: 绘制 6 / 跳过 60 (跳过率 90%)
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56816
+[SYS] 运行 0:03 | WiFi=已连 RSSI=-59dBm(平滑-60) | 芯片温度=41.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=55KB 最低=0KB 最大连续块=30KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] [HDR] first bytes arrived, avail=426
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:50 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:49 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0895-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:49 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58452
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400353.ts"
+[LIB] [HDR] first bytes arrived, avail=3285
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:50 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134796
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:39 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec088b-20e8c"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:49 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48260
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=2/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=55KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1310/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160125bps 解码错=-6 | 数据age 0ms | 主循环 232Hz 音频泵 488Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 57ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流56 库循环2 Web33 落盘0 门户10 红外0 按键10 显示251
+[LCD] 显示帧: 绘制 6 / 跳过 63 (跳过率 91%)
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400354.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56652
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:39:55 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 135172
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:44 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0890-21004"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:39:54 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48432
+[LIB] slow stream, dropouts are possible
+[HB] 运行192s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 165000bps | 堆=56KB 最大块=30KB | HTTP请求=170 WS=1 | 主栈余=3388 音频泵=564Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 2202/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=168750bps 解码错=-6 | 数据age 190ms | 主循环 257Hz 音频泵 499Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 58ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流57 库循环0 Web31 落盘0 门户0 红外0 按键13 显示244
+[LCD] 显示帧: 绘制 8 / 跳过 52 (跳过率 86%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400355.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56784
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:01 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134796
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:49 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec0895-20e8c"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:00 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48500
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1361/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=175125bps 解码错=-6 | 数据age 200ms | 主循环 309Hz 音频泵 545Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环0 Web20 落盘0 门户10 红外0 按键13 显示275
+[LCD] 显示帧: 绘制 7 / 跳过 59 (跳过率 89%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56784
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:06 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:04 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08a4-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:05 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58420
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400356.ts"
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:06 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133668
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:54 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec089a-20a24"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:05 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48352
+[HB] 运行202s | WiFi=已连 IP=10.0.0.236 RSSI=-58dBm | 播放=1 编码=AAC 159750bps | 堆=56KB 最大块=30KB | HTTP请求=177 WS=1 | 主栈余=3388 音频泵=546Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1306/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=157500bps 解码错=-6 | 数据age 0ms | 主循环 310Hz 音频泵 591Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 65ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流64 库循环1 Web31 落盘0 门户14 红外0 按键14 显示207
+[LCD] 显示帧: 绘制 4 / 跳过 67 (跳过率 94%)
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400357.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56688
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:12 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133668
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:39:59 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec089f-20a24"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:11 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=53176
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 2814/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=171750bps 解码错=-6 | 数据age 226ms | 主循环 254Hz 音频泵 451Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web38 落盘0 门户10 红外0 按键10 显示240
+[LCD] 显示帧: 绘制 7 / 跳过 54 (跳过率 88%)
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400358.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56792
+[HB] 运行212s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 157125bps | 堆=43KB 最大块=23KB | HTTP请求=187 WS=1 | 主栈余=3388 音频泵=291Hz 泵栈余=3732
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:17 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134984
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:04 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08a4-20f48"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:16 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48516
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1331/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=133125bps 解码错=-6 | 数据age 0ms | 主循环 440Hz 音频泵 627Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流54 库循环4 Web33 落盘0 门户7 红外0 按键25 显示210
+[LCD] 显示帧: 绘制 3 / 跳过 69 (跳过率 95%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56780
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:22 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:19 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08b3-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:21 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58416
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400359.ts"
+[LIB] [HDR] first bytes arrived, avail=1849
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:22 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133856
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:09 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08a9-20ae0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:21 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=53312
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1665/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=166125bps 解码错=-6 | 数据age 255ms | 主循环 154Hz 音频泵 605Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -58dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 65ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流64 库循环0 Web30 落盘0 门户10 红外0 按键13 显示254
+[LCD] 显示帧: 绘制 6 / 跳过 59 (跳过率 90%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行222s | WiFi=已连 IP=10.0.0.236 RSSI=-59dBm | 播放=1 编码=AAC 163875bps | 堆=56KB 最大块=30KB | HTTP请求=195 WS=1 | 主栈余=3388 音频泵=530Hz 泵栈余=3732
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400360.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56584
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:27 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 135172
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:14 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08ae-21004"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:26 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48448
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1507/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=172875bps 解码错=-6 | 数据age 183ms | 主循环 226Hz 音频泵 520Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 57ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流56 库循环0 Web32 落盘0 门户10 红外3 按键22 显示239
+[LCD] 显示帧: 绘制 6 / 跳过 58 (跳过率 90%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400361.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56784
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:33 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133480
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:19 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08b3-20968"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:32 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48404
+[DIAG] 缓冲 1911/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=153375bps 解码错=-6 | 数据age 0ms | 主循环 278Hz 音频泵 534Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 56ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web30 落盘0 门户1 红外9 按键9 显示252
+[LCD] 显示帧: 绘制 8 / 跳过 52 (跳过率 86%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行232s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 165750bps | 堆=54KB 最大块=30KB | HTTP请求=204 WS=1 | 主栈余=3388 音频泵=486Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995.m3u8"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56784
+[LIB] [HDR] first bytes arrived, avail=597
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:38 GMT
+[LIB] [HDR] line: Content-Type: application/vnd.apple.mpegurl
+[LIB] [HDR] line: Content-Length: 171
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:34 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08c2-ab"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:37 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=0 listfmt=4 heap=58420
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400362.ts"
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:38 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133292
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:24 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08b8-208ac"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:37 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48288
+[DIAG] 缓冲 2313/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=169875bps 解码错=-6 | 数据age 203ms | 主循环 433Hz 音频泵 621Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 66ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流65 库循环0 Web43 落盘0 门户10 红外0 按键18 显示208
+[LCD] 显示帧: 绘制 7 / 跳过 56 (跳过率 88%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400363.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=56648
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:43 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 134796
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:29 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08bd-20e8c"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:42 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48364
+[DIAG] 缓冲 1319/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=151875bps 解码错=-6 | 数据age 1ms | 主循环 267Hz 音频泵 502Hz | 堆 51KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -64dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 55ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流55 库循环0 Web33 落盘0 门户1 红外0 按键11 显示220
+[LCD] 显示帧: 绘制 6 / 跳过 60 (跳过率 90%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行242s | WiFi=已连 IP=10.0.0.236 RSSI=-63dBm | 播放=1 编码=AAC 150375bps | 堆=52KB 最大块=30KB | HTTP请求=212 WS=1 | 主栈余=3388 音频泵=513Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] new request: "http://macaofm995.com/hls1/fm995-400364.ts"
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=49536
+[LIB] [HDR] first bytes arrived, avail=413
+[LIB] [HDR] line: HTTP/1.1 200 OK
+[LIB] [HDR] line: Server: nginx/1.21.6
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:48 GMT
+[LIB] [HDR] line: Content-Type: video/mp2t
+[LIB] [HDR] line: Content-Length: 133856
+[LIB] [HDR] line: Last-Modified: Thu, 05 Nov 2026 04:40:34 GMT
+[LIB] [HDR] line: Connection: keep-alive
+[LIB] [HDR] line: ETag: "6aec08c2-20ae0"
+[LIB] [HDR] line: Expires: Thu, 05 Nov 2026 04:40:47 GMT
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Cache-Control: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: Access-Control-Expose-Headers: Content-Length
+[LIB] [HDR] line: Accept-Ranges: bytes
+[LIB] [HDR] lastToDo codec=3 listfmt=4 heap=48432
+[DIAG] 缓冲 2990/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=168000bps 解码错=-6 | 数据age 1ms | 主循环 283Hz 音频泵 463Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -63dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [澳门绿邨电台FM99.5] http://macaofm995.com/hls1/fm995.m3u8
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 64ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流63 库循环3 Web46 落盘0 门户4 红外0 按键19 显示290
+[LCD] 显示帧: 绘制 7 / 跳过 54 (跳过率 88%)
+[LIB] slow stream, dropouts are possible
+[SYS] 运行 0:04 | WiFi=已连 RSSI=-63dBm(平滑-61) | 芯片温度=41.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=54KB 最低=0KB 最大连续块=30KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[Audio] 切台静音: 音量压到0, 待新流出声后 ramp 恢复
+[PROBE] http://117.72.180.140:8000/hill
+[PROBE]   耗时 375ms, 收到头 289 字节(完整): HTTP/1.0 200 OK | Server: Icecast 2.4.4 | Connection: Close | Date: Thu, 05 Nov 2026 04:40:51 GMT | Content-Type: audio/aacp | Cache-Control: no-cache, no-store | Expires: Mon, 26 Jul 1997 05:00:00 GMT | Pragma: no-cache | Access-Control-Allow-Origin: * | icy-br:160 | icy-name:HillFm | icy-pub:0 |  ...
+[PROBE]   判定: Content-Type=audio/aacp -> kind=1 [放行] AAC+/HE-AAC(★本板 SBR 已启用, 输出 96kHz)
+[LIB] Connect to new host: "http://117.72.180.140:8000/hill"
+[LIB] buffers freed, free Heap: 59980 bytes
+[LIB] Connection has been established in 226 ms, free Heap: 59532 bytes
+[LIB] [HDR] no-data: avail=0 connected=1 running=1 heap=57992
+[Audio] 建连返回: 运行=1 编码=unknown 码率=0bps 解码错=-6 | 堆 56KB 最大块 30KB | 已建连
+[Audio] 播放: http://117.72.180.140:8000/hill
+[Audio] ★未出声诊断: 库运行=1 编码=unknown 缓冲=0B/507904B(0%) 喂流=泵任务(泵704Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Store] 已写盘 /stations.json 共10台 (1112 B)
+[LIB] [HDR] first bytes arrived, avail=308
+[LIB] [HDR] line: HTTP/1.0 200 OK
+[LIB] [HDR] line: Server: Icecast 2.4.4
+[LIB] [HDR] line: Connection: Close
+[LIB] [HDR] line: Date: Thu, 05 Nov 2026 04:40:51 GMT
+[LIB] [HDR] line: Content-Type: audio/aacp
+[LIB] [HDR] line: Cache-Control: no-cache, no-store
+[LIB] [HDR] line: Expires: Mon, 26 Jul 1997 05:00:00 GMT
+[LIB] [HDR] line: Pragma: no-cache
+[LIB] [HDR] line: Access-Control-Allow-Origin: *
+[LIB] [HDR] line: icy-br:160
+[LIB] [HDR] line: icy-name:HillFm
+[LIB] [HDR] line: icy-pub:0
+[LIB] [HDR] line: icy-metaint:16000
+[LIB] [HDR] lastToDo codec=3 listfmt=0 heap=58600
+[LIB] [AAC] sizeof: DecInfo=96 PSInfoBase=27364 pce*16=1312 | SBR=1
+[LIB] [AAC] before alloc: DEF|INT largest=31732 free=58600
+[LIB] [AAC] alloc OK, free Heap: 55828 bytes
+[LIB] AACDecoder has been initialized, free Heap: 58188 bytes
+[LIB] stream ready
+[Audio] 切台静音恢复完成
+[LIB] StreamTitle=''
+[DIAG] 缓冲 18283/507904(3%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160000bps 解码错=-6 | 数据age 0ms | 主循环 395Hz 音频泵 915Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 等待出声 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 332ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流332 库循环1011 Web29 落盘114 门户14 红外0 按键10 显示261
+[LCD] 显示帧: 绘制 4 / 跳过 53 (跳过率 92%)
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=18283B/507904B(3%) 喂流=泵任务(泵915Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[Audio] ★未出声诊断: 库运行=1 编码=AAC 缓冲=23923B/507904B(4%) 喂流=泵任务(泵1000Hz) | 堆 57KB 最大块 30KB | 阶段 6 6 主循环运行中(空闲/播放)
+[LIB] syncword found at pos 119
+[Audio] 开始出声: 编码=AAC 码率=160000bps 缓冲=34KB | 采样率=48000Hz
+[LIB] syncword found at pos 0
+[LIB] Channels: 2
+[LIB] SampleRate: 48000
+[LIB] BitsPerSample: 16
+[LIB] BitRate: 155625
+[LIB] AAC HeaderFormat: ADTS
+[LIB] AAC Codec: MPEG-2
+[LIB] AAC Profile: LowComplexity
+[LIB] VBR recognized, audioFileDuration is estimated
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=26/496KB(5%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[HB] 运行252s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=AAC 147000bps | 堆=57KB 最大块=30KB | HTTP请求=222 WS=1 | 主栈余=3388 音频泵=986Hz 泵栈余=3732
+[DIAG] 缓冲 4763/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147000bps 解码错=-6 | 数据age 4ms | 主循环 277Hz 音频泵 140Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 22ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流22 库循环11 Web28 落盘0 门户0 红外3 按键12 显示476
+[LCD] 显示帧: 绘制 5 / 跳过 62 (跳过率 92%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 3619/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=155625bps 解码错=-6 | 数据age 15ms | 主循环 606Hz 音频泵 991Hz | 堆 56KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流18 库循环0 Web11 落盘0 门户9 红外0 按键3 显示115
+[LCD] 显示帧: 绘制 6 / 跳过 71 (跳过率 92%)
+[LIB] slow stream, dropouts are possible
+[HB] 运行262s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 144375bps | 堆=57KB 最大块=30KB | HTTP请求=229 WS=1 | 主栈余=3388 音频泵=593Hz 泵栈余=3732
+[DIAG] 缓冲 1413/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=224625bps 解码错=-6 | 数据age 17ms | 主循环 371Hz 音频泵 633Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 16ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流15 库循环0 Web16 落盘12 门户12 红外0 按键12 显示285
+[LCD] 显示帧: 绘制 5 / 跳过 66 (跳过率 92%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=10/496KB(2%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=47KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 17583/507904(3%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=154875bps 解码错=-6 | 数据age 8ms | 主循环 322Hz 音频泵 141Hz | 堆 50KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 23ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流22 库循环3 Web21 落盘0 门户8 红外0 按键8 显示219
+[LCD] 显示帧: 绘制 5 / 跳过 64 (跳过率 92%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行272s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 137625bps | 堆=57KB 最大块=30KB | HTTP请求=239 WS=1 | 主栈余=3388 音频泵=963Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1592/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=137625bps 解码错=-6 | 数据age 1ms | 主循环 611Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流19 库循环3 Web13 落盘2 门户0 红外0 按键12 显示184
+[LCD] 显示帧: 绘制 4 / 跳过 73 (跳过率 94%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1566/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=157875bps 解码错=-6 | 数据age 0ms | 主循环 353Hz 音频泵 656Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 12ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流11 库循环0 Web26 落盘0 门户4 红外0 按键10 显示197
+[LCD] 显示帧: 绘制 6 / 跳过 67 (跳过率 91%)
+[LIB] slow stream, dropouts are possible
+[HB] 运行282s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 142875bps | 堆=57KB 最大块=30KB | HTTP请求=247 WS=1 | 主栈余=3388 音频泵=436Hz 泵栈余=3732
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=3/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 1465/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=143625bps 解码错=-6 | 数据age 239ms | 主循环 458Hz 音频泵 643Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -59dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流18 库循环1 Web64 落盘0 门户11 红外0 按键12 显示270
+[LCD] 显示帧: 绘制 5 / 跳过 63 (跳过率 92%)
+[DIAG] 缓冲 4633/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=160125bps 解码错=-6 | 数据age 1ms | 主循环 250Hz 音频泵 141Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流19 库循环3 Web28 落盘0 门户11 红外0 按键10 显示280
+[LCD] 显示帧: 绘制 8 / 跳过 53 (跳过率 86%)
+[HB] 运行292s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 151125bps | 堆=57KB 最大块=30KB | HTTP请求=256 WS=1 | 主栈余=3388 音频泵=142Hz 泵栈余=3732
+[DIAG] 缓冲 21089/507904(4%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=158625bps 解码错=-6 | 数据age 0ms | 主循环 328Hz 音频泵 142Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 21ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流21 库循环3 Web16 落盘0 门户3 红外2 按键15 显示235
+[LCD] 显示帧: 绘制 8 / 跳过 54 (跳过率 87%)
+[DIAG] 缓冲 25030/507904(4%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=138375bps 解码错=-6 | 数据age 1ms | 主循环 355Hz 音频泵 141Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 22ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流21 库循环2 Web17 落盘0 门户3 红外3 按键7 显示201
+[LCD] 显示帧: 绘制 4 / 跳过 67 (跳过率 94%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=22/496KB(4%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行302s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 148500bps | 堆=57KB 最大块=30KB | HTTP请求=263 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1435/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=148500bps 解码错=-6 | 数据age 0ms | 主循环 645Hz 音频泵 997Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 21ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流21 库循环4 Web27 落盘0 门户0 红外0 按键12 显示102
+[LCD] 显示帧: 绘制 1 / 跳过 80 (跳过率 98%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[SYS] 运行 0:05 | WiFi=已连 RSSI=-60dBm(平滑-60) | 芯片温度=41.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1432/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=156375bps 解码错=-6 | 数据age 1ms | 主循环 638Hz 音频泵 995Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 12ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流11 库循环0 Web11 落盘0 门户1 红外0 按键4 显示13
+[LCD] 显示帧: 绘制 0 / 跳过 83 (跳过率 100%)
+[LIB] slow stream, dropouts are possible
+[HB] 运行312s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 145875bps | 堆=57KB 最大块=30KB | HTTP请求=274 WS=1 | 主栈余=3388 音频泵=502Hz 泵栈余=3732
+[DIAG] 缓冲 7428/507904(1%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=215625bps 解码错=-6 | 数据age 1ms | 主循环 343Hz 音频泵 142Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流19 库循环3 Web35 落盘0 门户3 红外0 按键12 显示334
+[LCD] 显示帧: 绘制 5 / 跳过 63 (跳过率 92%)
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=12/496KB(2%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=48KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[DIAG] 缓冲 27594/507904(5%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=144750bps 解码错=-6 | 数据age 0ms | 主循环 434Hz 音频泵 141Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 20ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流19 库循环3 Web28 落盘2 门户7 红外0 按键7 显示204
+[LCD] 显示帧: 绘制 6 / 跳过 61 (跳过率 91%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行322s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 132750bps | 堆=56KB 最大块=30KB | HTTP请求=281 WS=1 | 主栈余=3388 音频泵=999Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1425/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=132750bps 解码错=-6 | 数据age 0ms | 主循环 654Hz 音频泵 991Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 23ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流22 库循环3 Web11 落盘0 门户3 红外0 按键12 显示174
+[LCD] 显示帧: 绘制 4 / 跳过 74 (跳过率 94%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 618Hz 音频泵 897Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 14ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流14 库循环0 Web48 落盘0 门户14 红外0 按键11 显示294
+[LCD] 显示帧: 绘制 5 / 跳过 63 (跳过率 92%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=56KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[HB] 运行332s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 147750bps | 堆=56KB 最大块=30KB | HTTP请求=291 WS=1 | 主栈余=3388 音频泵=994Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 665Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 3ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流0 库循环3 Web23 落盘0 门户1 红外0 按键12 显示1
+[LCD] 显示帧: 绘制 0 / 跳过 82 (跳过率 100%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 646Hz 音频泵 996Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 7ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流6 库循环3 Web13 落盘0 门户4 红外0 按键3 显示103
+[LCD] 显示帧: 绘制 2 / 跳过 79 (跳过率 97%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行342s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 147750bps | 堆=57KB 最大块=30KB | HTTP请求=299 WS=1 | 主栈余=3388 音频泵=995Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 648Hz 音频泵 994Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 3ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流2 库循环0 Web11 落盘0 门户1 红外0 按键12 显示102
+[LCD] 显示帧: 绘制 2 / 跳过 79 (跳过率 97%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 629Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web19 落盘0 门户1 红外0 按键0 显示102
+[LCD] 显示帧: 绘制 2 / 跳过 79 (跳过率 97%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行352s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 147750bps | 堆=57KB 最大块=30KB | HTTP请求=308 WS=1 | 主栈余=3388 音频泵=994Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 1ms | 主循环 611Hz 音频泵 995Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web11 落盘0 门户0 红外0 按键12 显示111
+[LCD] 显示帧: 绘制 1 / 跳过 81 (跳过率 98%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 660Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -60dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web11 落盘0 门户0 红外0 按键0 显示102
+[LCD] 显示帧: 绘制 1 / 跳过 81 (跳过率 98%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[HB] 运行362s | WiFi=已连 IP=10.0.0.236 RSSI=-60dBm | 播放=1 编码=AAC 147750bps | 堆=57KB 最大块=30KB | HTTP请求=316 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 102ms | 主循环 638Hz 音频泵 994Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web20 落盘0 门户4 红外0 按键12 显示103
+[LCD] 显示帧: 绘制 2 / 跳过 79 (跳过率 97%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[SYS] 运行 0:06 | WiFi=已连 RSSI=-61dBm(平滑-60) | 芯片温度=40.0(最高42.0)°C | CPU=240MHz | 断线累计=0
+      内部堆: 空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM: 空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 666Hz 音频泵 996Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -61dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 5ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web11 落盘0 门户1 红外0 按键0 显示102
+[LCD] 显示帧: 绘制 2 / 跳过 79 (跳过率 97%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行372s | WiFi=已连 IP=10.0.0.236 RSSI=-61dBm | 播放=1 编码=AAC 147750bps | 堆=57KB 最大块=30KB | HTTP请求=326 WS=1 | 主栈余=3388 音频泵=990Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 578Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 3ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web11 落盘4 门户1 红外0 按键12 显示102
+[LCD] 显示帧: 绘制 5 / 跳过 74 (跳过率 93%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG2] 音频: 模式=网台 状态=连接中 运行=1 缓冲=1/496KB(0%) 最近解码错=-6 | 重连累计=3
+        内存: 内部堆空闲=57KB 最低=0KB 最大连续块=30KB | PSRAM空闲=7408KB/8192KB | 分配失败累计=1
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 102ms | 主循环 681Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web23 落盘0 门户4 红外0 按键0 显示110
+[LCD] 显示帧: 绘制 5 / 跳过 74 (跳过率 93%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[HB] 运行382s | WiFi=已连 IP=10.0.0.236 RSSI=-62dBm | 播放=1 编码=AAC 147750bps | 堆=57KB 最大块=30KB | HTTP请求=333 WS=1 | 主栈余=3388 音频泵=1000Hz 泵栈余=3732
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 103ms | 主循环 656Hz 音频泵 989Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -62dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 4ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web11 落盘0 门户1 红外0 按键12 显示103
+[LCD] 显示帧: 绘制 4 / 跳过 76 (跳过率 95%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[DIAG] 缓冲 1446/507904(0%) 起播预缓冲=开,32KB | 喂流=泵任务 | 音量 41/99 | 运行=1 编码=AAC 码率=147750bps 解码错=-6 | 数据age 0ms | 主循环 662Hz 音频泵 1000Hz | 堆 57KB(最大块 30KB) | 栈余 主3388/泵3732 | WiFi -64dBm | 阶段 6 6 主循环运行中(空闲/播放) | 播放中 | 标题编码=UTF-8
+[DIAG] 电台: [Ai醉了台] http://117.72.180.140:8000/hill
+[DIAG] 采样率 48000Hz | 音频泵喂流最大间隔 3ms (DMA深度 96000Hz->170ms / 44100Hz->372ms)
+[DIAG] 阶段最大耗时ms: 喂流3 库循环0 Web11 落盘0 门户0 红外0 按键0 显示105
+[LCD] 显示帧: 绘制 3 / 跳过 77 (跳过率 96%)
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
+[LIB] slow stream, dropouts are possible
