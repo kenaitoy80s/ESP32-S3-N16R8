@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>KenRadio</title>
+<style>
+  :root {
+    --bg: #111318;
+    --surface: #1c1f26;
+    --surface2: #252a33;
+    --primary: #4f8cff;
+    --text: #f0f2f5;
+    --text2: #9aa3b2;
+    --red: #f87171;
+    --border: #2e3440;
+    --radius: 14px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 0 0 36px;
+    line-height: 1.45;
+  }
+  .wrap { max-width: 480px; margin: 0 auto; padding: 0 14px; }
+  header {
+    padding: 16px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo { font-size: 1.3rem; font-weight: 700; letter-spacing: -0.3px; }
+  .logo span { color: var(--primary); }
+  .clock { font-size: 0.75rem; color: var(--text2); text-align: right; }
+  .weather {
+    background: var(--surface);
+    border-radius: var(--radius);
+    padding: 10px 12px;
+    margin-bottom: 10px;
+  }
+  .wx-top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  .wx-top .icon { font-size: 1.4rem; }
+  .wx-top .city { font-weight: 600; font-size: 0.9rem; }
+  .wx-top .now { margin-left: auto; font-size: 1.05rem; font-weight: 600; }
+  .wx-days {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    font-size: 0.78rem;
+  }
+  .wx-day {
+    background: var(--bg);
+    border-radius: 10px;
+    padding: 8px 10px;
+  }
+  .wx-day .label { color: var(--primary); font-weight: 600; margin-bottom: 2px; }
+  .wx-day .line { color: var(--text2); }
+  .player {
+    background: linear-gradient(145deg, #1e2430, #181c24);
+    border-radius: 18px;
+    padding: 16px 14px 14px;
+    margin-bottom: 12px;
+    border: 1px solid var(--border);
+  }
+  .np-title {
+    font-size: 1.02rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .np-meta, .np-extra {
+    font-size: 0.75rem;
+    color: var(--text2);
+    margin-bottom: 2px;
+  }
+  .np-extra { margin-bottom: 12px; min-height: 1.1em; }
+  .ctrl-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-bottom: 12px;
+  }
+  .btn-circle {
+    width: 46px; height: 46px;
+    border-radius: 50%;
+    border: none;
+    background: var(--surface2);
+    color: var(--text);
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  .btn-circle.main {
+    width: 60px; height: 60px;
+    background: var(--primary);
+    font-size: 1.4rem;
+  }
+  .btn-circle:active { transform: scale(0.94); }
+  .btn-circle.stop-btn { background: #3b2a2a; color: var(--red); }
+  .vol-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 2px;
+  }
+  .vol-row input[type=range] {
+    flex: 1; height: 4px;
+    -webkit-appearance: none;
+    background: var(--surface2);
+    border-radius: 2px; outline: none;
+  }
+  .vol-row input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: var(--primary);
+    cursor: pointer;
+  }
+  .vol-label { font-size: 0.72rem; color: var(--text2); width: 26px; text-align: center; }
+  .status {
+    text-align: center;
+    font-size: 0.72rem;
+    color: var(--text2);
+    margin-top: 8px;
+    min-height: 1em;
+  }
+  .section-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px 0 6px;
+  }
+  .section-head h2 { font-size: 0.92rem; font-weight: 600; }
+  .btn-text {
+    background: none; border: none;
+    color: var(--primary); font-size: 0.8rem;
+    cursor: pointer; padding: 4px 6px;
+  }
+  .station {
+    background: var(--surface);
+    border-radius: 12px;
+    padding: 11px 11px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid transparent;
+  }
+  .station.active {
+    border-color: var(--primary);
+    background: #1a2332;
+  }
+  .station .play-ico {
+    width: 34px; height: 34px;
+    border-radius: 50%;
+    background: var(--surface2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.85rem; flex-shrink: 0; cursor: pointer;
+  }
+  .station.active .play-ico { background: var(--primary); }
+  .station .body { flex: 1; min-width: 0; cursor: pointer; }
+  .station .name {
+    font-size: 0.88rem; font-weight: 500;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  }
+  .station .tags { font-size: 0.7rem; color: var(--text2); margin-top: 1px; }
+  .station .more {
+    background: none; border: none;
+    color: var(--text2); font-size: 1.05rem;
+    padding: 4px 6px; cursor: pointer;
+  }
+  .overlay {
+    display: none;
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.65);
+    z-index: 50;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  .overlay.show { display: flex; }
+  .sheet {
+    background: var(--surface);
+    width: 100%; max-width: 480px;
+    border-radius: 18px 18px 0 0;
+    padding: 18px 16px 26px;
+    max-height: 85vh; overflow-y: auto;
+  }
+  .sheet h3 { font-size: 1rem; margin-bottom: 12px; }
+  .field { margin-bottom: 11px; }
+  .field label {
+    display: block; font-size: 0.75rem;
+    color: var(--text2); margin-bottom: 3px;
+  }
+  .field input, .field select {
+    width: 100%; padding: 10px 11px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--bg); color: var(--text);
+    font-size: 0.92rem;
+  }
+  .hint { font-size: 0.7rem; color: var(--text2); margin-top: 3px; }
+  .sheet-actions { display: flex; gap: 10px; margin-top: 16px; }
+  .sheet-actions button {
+    flex: 1; padding: 11px;
+    border-radius: 12px; border: none;
+    font-size: 0.92rem; cursor: pointer;
+  }
+  .btn-cancel { background: var(--surface2); color: var(--text); }
+  .btn-ok { background: var(--primary); color: #fff; }
+  .btn-danger { background: #3b2222; color: var(--red); }
+  audio { display: none; }
+  footer {
+    text-align: center;
+    font-size: 0.68rem;
+    color: var(--text2);
+    margin-top: 16px;
+    opacity: 0.75;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">Ken<span>Radio</span></div>
+    <div class="clock" id="clock">--:--</div>
+  </header>
+
+  <div class="weather">
+    <div class="wx-top">
+      <div class="icon" id="wxIcon">🌧</div>
+      <div>
+        <div class="city">San Francisco</div>
+        <div style="font-size:0.72rem;color:var(--text2)" id="wxPeriod">—</div>
+      </div>
+      <div class="now" id="wxTemp">50°F</div>
+    </div>
+    <div class="wx-days">
+      <div class="wx-day">
+        <div class="label">今天 Today</div>
+        <div class="line" id="wxToday">多云有雨 · 49–56°F</div>
+        <div class="line" id="wxToday2">凌晨雨 · 午后转多云</div>
+      </div>
+      <div class="wx-day">
+        <div class="label">明天 Tomorrow</div>
+        <div class="line" id="wxTmr">有雨转晴 · 48–57°F</div>
+        <div class="line" id="wxTmr2">上午有雨可能 · 晚上转晴</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="player">
+    <div class="np-title" id="npTitle">选择电台开始收听</div>
+    <div class="np-meta" id="npMeta">Select a station</div>
+    <div class="np-extra" id="npExtra">码率 / 缓冲 / 节目信息将显示在这里</div>
+    <div class="ctrl-row">
+      <button class="btn-circle" id="btnPrev" title="上一台">⏮</button>
+      <button class="btn-circle main" id="btnPlay" title="播放">▶</button>
+      <button class="btn-circle stop-btn" id="btnStop" title="停止">■</button>
+      <button class="btn-circle" id="btnNext" title="下一台">⏭</button>
+    </div>
+    <div class="vol-row">
+      <span class="vol-label">🔈</span>
+      <input type="range" id="vol" min="0" max="100" value="75">
+      <span class="vol-label" id="volVal">75</span>
+    </div>
+    <div class="status" id="status">就绪 Ready</div>
+  </div>
+
+  <div class="section-head">
+    <h2>电台 Stations</h2>
+    <button class="btn-text" id="btnAdd">+ 添加</button>
+  </div>
+  <div id="list"></div>
+  <footer>KenRadio V1.10 · 本地保存 · CarPlay / 锁屏可显信息与选台</footer>
+</div>
+
+<audio id="player" preload="none"></audio>
+
+<div class="overlay" id="overlay">
+  <div class="sheet">
+    <h3 id="sheetTitle">添加电台</h3>
+    <div class="field">
+      <label>名称 Name</label>
+      <input type="text" id="fName" placeholder="电台名称">
+    </div>
+    <div class="field">
+      <label>流地址 Stream URL</label>
+      <input type="text" id="fUrl" placeholder="https://..." oninput="autoFormat()">
+    </div>
+    <div class="field">
+      <label>格式 Format <span class="hint">（根据链接自动识别，可手动改）</span></label>
+      <select id="fFormat">
+        <option value="MP3">MP3</option>
+        <option value="AAC">AAC</option>
+        <option value="HLS">HLS</option>
+        <option value="Other">Other</option>
+      </select>
+    </div>
+    <div class="field">
+      <label>码率 Bitrate (kbps，可选)</label>
+      <input type="text" id="fBitrate" placeholder="如 64 / 128">
+    </div>
+    <div class="field">
+      <label>备注 / 节目 Note</label>
+      <input type="text" id="fNote" placeholder="粤语 · 新闻 等">
+    </div>
+    <div class="sheet-actions">
+      <button class="btn-cancel" id="btnCancel">取消</button>
+      <button class="btn-ok" id="btnSave">保存</button>
+    </div>
+    <div class="sheet-actions" id="delRow" style="display:none;margin-top:8px;">
+      <button class="btn-danger" id="btnDelete" style="width:100%;">删除此电台</button>
+    </div>
+  </div>
+</div>
+
+<script>
+const DEFAULTS = [
+  { id: 1, name: "雷霆881", url: "https://live-s.881903.com/edge-aac/881hd/chunks.m3u8", format: "HLS", bitrate: "", note: "粤语 · 商业电台" },
+  { id: 2, name: "星岛中文电台 粤语", url: "http://nap.casthost.net:8765/;?icy=http", format: "MP3", bitrate: "64", note: "湾区粤语" },
+  { id: 3, name: "Ai醉台", url: "http://117.72.180.140:8000/hill", format: "MP3", bitrate: "", note: "粤语电台" },
+  { id: 4, name: "澳门绿邨电台 FM99.5", url: "https://macaofm995.com/hls1/fm995.m3u8", format: "HLS", bitrate: "", note: "澳门粤语" },
+  { id: 5, name: "澳门电台 中文", url: "https://globallive.tdm.com.mo/live/rch2a.live/chunklist_w153449319.m3u8", format: "HLS", bitrate: "", note: "澳门粤语" },
+  { id: 6, name: "广东音乐之声", url: "http://satellitepull.cnr.cn/live/wxgdyyzs/playlist.m3u8", format: "HLS", bitrate: "", note: "广东音乐" },
+  { id: 7, name: "开平电台 FM95.6", url: "https://lhttp.qingting.fm/live/5037/64k.mp3", format: "MP3", bitrate: "64", note: "家乡开平" }
+];
+
+let stations = [];
+let cur = -1;
+let editId = null;
+const audio = document.getElementById("player");
+let bufferTimer = null;
+
+function load() {
+  try {
+    const s = localStorage.getItem("kenradio_v1_10");
+    stations = s ? JSON.parse(s) : JSON.parse(JSON.stringify(DEFAULTS));
+  } catch {
+    stations = JSON.parse(JSON.stringify(DEFAULTS));
+  }
+}
+function save() {
+  localStorage.setItem("kenradio_v1_10", JSON.stringify(stations));
+}
+
+function guessFormat(url) {
+  if (!url) return "MP3";
+  const u = url.toLowerCase();
+  if (u.includes(".m3u8") || u.includes("/hls") || u.includes("chunks.m3u8") || u.includes("playlist.m3u8") || u.includes("chunklist")) return "HLS";
+  if (u.includes(".aac") || u.includes("aac") || u.includes("edge-aac")) return "AAC";
+  if (u.includes(".mp3") || u.includes("mp3") || u.includes("64k.mp3")) return "MP3";
+  return "Other";
+}
+function autoFormat() {
+  const url = document.getElementById("fUrl").value.trim();
+  if (!url) return;
+  document.getElementById("fFormat").value = guessFormat(url);
+}
+
+function render() {
+  const box = document.getElementById("list");
+  if (!stations.length) {
+    box.innerHTML = '<div style="color:var(--text2);padding:14px;text-align:center;font-size:0.88rem;">暂无电台</div>';
+    return;
+  }
+  box.innerHTML = stations.map((s, i) => `
+    <div class="station ${i === cur ? "active" : ""}">
+      <div class="play-ico" onclick="play(${i})">${i === cur && !audio.paused ? "⏸" : "▶"}</div>
+      <div class="body" onclick="play(${i})">
+        <div class="name">${esc(s.name)}</div>
+        <div class="tags">${s.format || ""}${s.bitrate ? " · " + s.bitrate + "k" : ""} · ${esc(s.note || "")}</div>
+      </div>
+      <button class="more" onclick="openEdit(${s.id})">⋮</button>
+    </div>
+  `).join("");
+}
+function esc(t) {
+  return String(t || "").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function setStatus(t) {
+  document.getElementById("status").textContent = t;
+}
+
+function updateNP() {
+  if (cur < 0 || !stations[cur]) {
+    document.getElementById("npTitle").textContent = "选择电台开始收听";
+    document.getElementById("npMeta").textContent = "Select a station";
+    document.getElementById("npExtra").textContent = "码率 / 缓冲 / 节目信息将显示在这里";
+    return;
+  }
+  const s = stations[cur];
+  document.getElementById("npTitle").textContent = s.name;
+  document.getElementById("npMeta").textContent = (s.format || "") + (s.bitrate ? " · " + s.bitrate + " kbps" : "") + (s.note ? " · " + s.note : "");
+  updateBufferInfo();
+  updateMediaSession();
+}
+
+function updateBufferInfo() {
+  if (cur < 0 || !stations[cur]) return;
+  const s = stations[cur];
+  let buf = "—";
+  try {
+    if (audio.buffered && audio.buffered.length > 0 && isFinite(audio.currentTime)) {
+      const end = audio.buffered.end(audio.buffered.length - 1);
+      const ahead = Math.max(0, end - audio.currentTime);
+      buf = ahead > 0 ? ahead.toFixed(1) + "s" : "实时";
+    } else if (!audio.paused) {
+      buf = "连接中";
+    }
+  } catch (e) {}
+  const rate = s.bitrate ? s.bitrate + " kbps" : "码率未知";
+  const prog = s.note || "直播流 · 无单独曲目信息";
+  document.getElementById("npExtra").textContent = rate + " · 缓冲 " + buf + " · " + prog;
+}
+
+function updateMediaSession() {
+  if (!("mediaSession" in navigator) || cur < 0 || !stations[cur]) return;
+  const s = stations[cur];
+  try {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: s.name || "KenRadio",
+      artist: s.note || "KenRadio 网络电台",
+      album: (s.format || "") + (s.bitrate ? " · " + s.bitrate + "kbps" : ""),
+      artwork: [
+        { src: "data:image/svg+xml," + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect fill="%231c1f26" width="100" height="100"/><text x="50" y="58" text-anchor="middle" fill="%234f8cff" font-size="28" font-family="sans-serif">KR</text></svg>'), sizes: "100x100", type: "image/svg+xml" }
+      ]
+    });
+    navigator.mediaSession.setActionHandler("play", () => { if (cur >= 0) play(cur); });
+    navigator.mediaSession.setActionHandler("pause", () => {
+      audio.pause();
+      document.getElementById("btnPlay").textContent = "▶";
+      setStatus("已暂停");
+      render();
+    });
+    navigator.mediaSession.setActionHandler("previoustrack", () => prev());
+    navigator.mediaSession.setActionHandler("nexttrack", () => next());
+    navigator.mediaSession.setActionHandler("stop", () => stop());
+  } catch (e) {}
+}
+
+function play(i) {
+  if (i < 0 || i >= stations.length) return;
+  const s = stations[i];
+  if (!s.url) { setStatus("无有效地址"); return; }
+  if (cur === i && !audio.paused) {
+    audio.pause();
+    document.getElementById("btnPlay").textContent = "▶";
+    setStatus("已暂停");
+    render();
+    return;
+  }
+  cur = i;
+  audio.src = s.url;
+  audio.play().then(() => {
+    document.getElementById("btnPlay").textContent = "⏸";
+    setStatus("播放中");
+    if (bufferTimer) clearInterval(bufferTimer);
+    bufferTimer = setInterval(updateBufferInfo, 1500);
+  }).catch(() => {
+    setStatus("无法播放 · 可换其他台");
+    document.getElementById("btnPlay").textContent = "▶";
+  });
+  updateNP();
+  render();
+}
+
+function stop() {
+  audio.pause();
+  audio.removeAttribute("src");
+  audio.load();
+  document.getElementById("btnPlay").textContent = "▶";
+  setStatus("已停止");
+  if (bufferTimer) { clearInterval(bufferTimer); bufferTimer = null; }
+  render();
+  updateNP();
+}
+
+function next() {
+  if (!stations.length) return;
+  play((cur + 1 + stations.length) % stations.length);
+}
+function prev() {
+  if (!stations.length) return;
+  play((cur - 1 + stations.length) % stations.length);
+}
+
+function openAdd() {
+  editId = null;
+  document.getElementById("sheetTitle").textContent = "添加电台";
+  document.getElementById("fName").value = "";
+  document.getElementById("fUrl").value = "";
+  document.getElementById("fFormat").value = "MP3";
+  document.getElementById("fBitrate").value = "";
+  document.getElementById("fNote").value = "";
+  document.getElementById("delRow").style.display = "none";
+  document.getElementById("overlay").classList.add("show");
+}
+function openEdit(id) {
+  const s = stations.find(x => x.id === id);
+  if (!s) return;
+  editId = id;
+  document.getElementById("sheetTitle").textContent = "编辑电台";
+  document.getElementById("fName").value = s.name || "";
+  document.getElementById("fUrl").value = s.url || "";
+  document.getElementById("fFormat").value = s.format || guessFormat(s.url || "");
+  document.getElementById("fBitrate").value = s.bitrate || "";
+  document.getElementById("fNote").value = s.note || "";
+  document.getElementById("delRow").style.display = "flex";
+  document.getElementById("overlay").classList.add("show");
+}
+function closeSheet() {
+  document.getElementById("overlay").classList.remove("show");
+}
+function doSave() {
+  const name = document.getElementById("fName").value.trim();
+  if (!name) return alert("请填写名称");
+  const url = document.getElementById("fUrl").value.trim();
+  let format = document.getElementById("fFormat").value;
+  if (url && (!format || format === "Other")) format = guessFormat(url);
+  const data = {
+    name,
+    url,
+    format,
+    bitrate: document.getElementById("fBitrate").value.trim(),
+    note: document.getElementById("fNote").value.trim()
+  };
+  if (editId !== null) {
+    const i = stations.findIndex(x => x.id === editId);
+    if (i >= 0) stations[i] = { ...stations[i], ...data };
+  } else {
+    const nid = stations.length ? Math.max(...stations.map(s => s.id)) + 1 : 1;
+    stations.push({ id: nid, ...data });
+  }
+  save();
+  render();
+  closeSheet();
+}
+function doDelete() {
+  if (!confirm("确定删除？")) return;
+  stations = stations.filter(s => s.id !== editId);
+  if (cur >= stations.length) cur = stations.length - 1;
+  save();
+  render();
+  updateNP();
+  closeSheet();
+}
+
+function tick() {
+  const n = new Date();
+  let h = n.getHours();
+  const m = String(n.getMinutes()).padStart(2, "0");
+  const ap = h >= 12 ? "PM" : "AM";
+  const h12 = h % 12 || 12;
+  let period = "晚上";
+  if (h < 8) period = "凌晨";
+  else if (h < 12) period = "上午";
+  else if (h === 12) period = "中午";
+  else if (h < 18) period = "下午";
+  document.getElementById("clock").textContent = h12 + ":" + m + " " + ap + " · " + period;
+  document.getElementById("wxPeriod").textContent = period;
+}
+
+document.getElementById("wxTemp").textContent = "50°F";
+document.getElementById("wxToday").textContent = "多云有雨 · 49–56°F";
+document.getElementById("wxToday2").textContent = "凌晨雨 · 午后转多云";
+document.getElementById("wxTmr").textContent = "有雨转晴 · 48–57°F";
+document.getElementById("wxTmr2").textContent = "上午有雨可能 · 晚上转晴";
+
+document.getElementById("btnPlay").onclick = () => {
+  if (cur < 0) { if (stations.length) play(0); return; }
+  if (audio.paused) play(cur);
+  else {
+    audio.pause();
+    document.getElementById("btnPlay").textContent = "▶";
+    setStatus("已暂停");
+    render();
+  }
+};
+document.getElementById("btnStop").onclick = stop;
+document.getElementById("btnNext").onclick = next;
+document.getElementById("btnPrev").onclick = prev;
+document.getElementById("btnAdd").onclick = openAdd;
+document.getElementById("btnCancel").onclick = closeSheet;
+document.getElementById("btnSave").onclick = doSave;
+document.getElementById("btnDelete").onclick = doDelete;
+document.getElementById("vol").oninput = function () {
+  audio.volume = this.value / 100;
+  document.getElementById("volVal").textContent = this.value;
+};
+document.getElementById("overlay").addEventListener("click", e => {
+  if (e.target.id === "overlay") closeSheet();
+});
+
+audio.addEventListener("error", () => setStatus("流错误 · 换台试试"));
+audio.addEventListener("playing", () => { setStatus("播放中"); updateBufferInfo(); });
+audio.addEventListener("waiting", () => setStatus("缓冲中…"));
+audio.addEventListener("timeupdate", updateBufferInfo);
+
+load();
+render();
+updateNP();
+tick();
+setInterval(tick, 15000);
+audio.volume = 0.75;
+</script>
+</body>
+</html>
